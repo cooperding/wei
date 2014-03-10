@@ -1,0 +1,70 @@
+/*page*/
+.dogo-page {height:auto;background: url(../images/wrapper.jpg) repeat 0 0;
+            }
+
+
+
+/*header
+.dogo-header .navbar{background-image: -webkit-linear-gradient(top,#343742 0,#343742 100%);
+background-image: linear-gradient(to bottom,#343742 0,#343742 100%);box-shadow: 0 3px 3px rgba(0, 0, 0, 0.7);}
+*/
+.dogo-header .dogo-header-navbar{
+    background: rgba(10, 144, 219, 0.21);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2F323A', endColorstr='rgba(0, 0, 0, 0.69)', GradientType=0);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border: inset 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 1px rgba(255,255,255,0.8);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,0.8);
+    box-shadow: 0 0 1px rgba(255,255,255,0.8);
+}
+.dogo-header .dogo-header-navbar a,.dogo-header .dogo-header-navbar .navbar-nav>li>a{color: #fff;text-shadow: 0 1px 0 rgba(255,255,255,.25);}
+.dogo-header-navbar a:hover,.dogo-header-navbar .navbar-nav>li>a:hover,.dogo-header-navbar .navbar-nav>li>a:focus{color: #fff;}
+
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:hover, 
+.navbar-default .navbar-nav>.open>a:focus{background: rgba(89, 212, 243, 0.66);color: #fff;}
+
+.dropdown-menu {background: rgba(89, 212, 243, 0.66);}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #fff;
+    background-image: -webkit-linear-gradient(top,#0796C3 0,#0796C3 100%);
+    background-image: linear-gradient(to bottom,#0796C3 0,#0796C3 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0796C3', endColorstr='#0796C3', GradientType=0);
+    background-color: #0796C3;
+}
+
+
+.dogo-bg{background: rgba(255, 255, 255, 0);}
+
+/*侧栏页*/
+aside .dogo-text{background: none;padding: 0;margin: 0;border:none;}
+aside .dogo-text .dogo-text-header a{color: #fff;}
+aside .dogo-text li a{color: #fff;}
+
+aside ul.dogo-text-more li a:hover{color: #EEE9E9;}
+/*内容页*/
+.dogo-view>p{background: none;color: #fff;}
+
+
+
+
+
+@media (min-width: 1200px){
+    .container {width: 100%;}
+}
+@media(min-width:768px){
+
+}
+@media(max-width:768px){
+
+}
+
+@media(min-width:768px){
+
+}
+@media(max-width:768px){
+
+}
+

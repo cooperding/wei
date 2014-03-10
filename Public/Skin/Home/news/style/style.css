@@ -1,0 +1,14 @@
+/*page*/
+.dogo-page {}
+
+/*header
+.dogo-header .navbar{background-image: -webkit-linear-gradient(top,#343742 0,#343742 100%);
+background-image: linear-gradient(to bottom,#343742 0,#343742 100%);box-shadow: 0 3px 3px rgba(0, 0, 0, 0.7);}
+*/
+
+
+/*dogo-top*/
+.dogo-top{height:170px; }
+
+
+.dogo-list-comment ul li{border: dotted 1px #EEE8E8;margin: 5px 0;padding: 5px;overflow: hidden;}
