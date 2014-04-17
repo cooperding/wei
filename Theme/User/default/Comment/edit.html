@@ -1,0 +1,26 @@
+<form action="{:U('Admin/Comment/update')}" class="form_dogocms" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="id" value="{$data.id}" />
+    <div class="division">
+        <table>
+            <tbody>
+                <tr>
+                    <th>评论人：</th>
+                    <td><input type="text" name="post_name" value="{$data.post_name}" data-options="required:true" class="easyui-validatebox"/><span class="red">*</span></td>
+                </tr>
+                <tr>
+                    <th>留言内容：</th>
+                    <td><textarea name="msgcontent" rows="3" cols="30">{$data.msgcontent}</textarea></td>
+                </tr>
+                <tr>
+                    <th>状态：</th>
+                    <td><html:radio name="status" radios="radios" checked="v_status" /></td>
+            </tr>
+            <tr>
+                <th>回复内容：</th>
+                <td><textarea id="content" name="replycontent" style="width:720px;height:400px;visibility:hidden;">{$data.replycontent|stripslashes}</textarea></td>
+            </tr>
+            
+
+            </tbody>
+        </table></div>
+</form>
