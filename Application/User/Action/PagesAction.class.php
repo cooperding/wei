@@ -11,7 +11,7 @@
  * @package  Controller
  * @todo 联动模型其他操作
  */
-namespace Admin\Action;
+namespace User\Action;
 use Think\Action;
 class PagesAction extends BaseAction {
 

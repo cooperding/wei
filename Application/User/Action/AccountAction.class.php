@@ -9,7 +9,7 @@
  * @version dogocms 1.0 2012-11-5 11:20
  * @package  Controller
  */
-namespace Admin\Action;
+namespace User\Action;
 use Think\Action;
 class AccountAction extends BaseAction
 {

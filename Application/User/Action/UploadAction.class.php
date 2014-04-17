@@ -10,7 +10,7 @@
  * @package  Controller
  * @todo 上传权限及各种安全过滤
  */
-namespace Admin\Action;
+namespace User\Action;
 use Think\Action;
 class UploadAction extends BaseAction {
 

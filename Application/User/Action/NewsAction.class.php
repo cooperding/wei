@@ -10,7 +10,7 @@
  * @package  Controller
  * @todo 信息各项操作
  */
-namespace Admin\Action;
+namespace User\Action;
 use Think\Action;
 class NewsAction extends BaseAction {
 

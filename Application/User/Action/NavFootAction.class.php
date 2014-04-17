@@ -10,7 +10,7 @@
  * @package  Controller
  * @todo 内容模型各项操作
  */
-namespace Admin\Action;
+namespace User\Action;
 use Think\Action;
 class NavFootAction extends BaseAction {
 

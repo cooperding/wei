@@ -11,7 +11,7 @@
  * @package  Controller
  * @todo 权限验证
  */
-namespace Admin\Action;
+namespace User\Action;
 use Think\Action;
 class BaseAction extends Action {
 

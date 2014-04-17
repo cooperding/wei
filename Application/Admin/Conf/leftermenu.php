@@ -93,46 +93,6 @@ $array = array(
                     array('label' => L('menu_linkpage_cat'), 'type' => 'linkpage_cat', 'link' => __MODULE__ . '/LinkPage/sort'),
                     array('label' => L('menu_linkpage_list'), 'type' => 'linkpage_list', 'link' => __MODULE__ . '/LinkPage/sortlist')
                 )),
-        )),
-    array('label' => 'B2C中心', 'type' => 'b2c_name', 'items' => array(
-            array('label' => '商品信息', 'type' => 'goods', 'items' => array(
-                    array('label' => '商品列表', 'type' => 'goods_list', 'link' => __MODULE__ . '/GoodsList/index'),
-                    array('label' => '缺货商品', 'type' => 'goods_list', 'link' => __MODULE__ . '/GoodsList/outStock'),
-                    array('label' => '品牌商家', 'type' => 'brand_list', 'link' => __MODULE__ . '/BrandList/index'),
-                    array('label' => '商品回收站', 'type' => 'goods_recycle', 'link' => __MODULE__ . '/GoodsList/recycle'),
-                )),
-            array('label' => '属性及分类', 'type' => 'attr_goods_sort', 'items' => array(
-                    array('label' => '商品分类', 'type' => 'goods_sort', 'link' => __MODULE__ . '/GoodsSort/index'),
-                    array('label' => '属性分类', 'type' => 'attribute_sort', 'link' => __MODULE__ . '/AttributeSort/index'),
-                    array('label' => '属性列表', 'type' => 'attribute_list', 'link' => __MODULE__ . '/AttributeList/index')
-                )),
-            array('label' => '物流支付', 'type' => 'templet_', 'items' => array(
-                    array('label' => '物流管理', 'type' => 'freight', 'link' => __MODULE__ . '/Shipping/index'),
-                    array('label' => '支付管理', 'type' => 'payment', 'link' => __MODULE__ . '/Payment/index')
-                )),
-            array('label' => '订单管理', 'type' => 'menu_order', 'items' => array(
-                    array('label' => '订单列表', 'type' => 'order_list', 'link' => __MODULE__ . '/OrderList/index')
-                )),
-            array('label' => '优惠促销', 'type' => 'setting', 'items' => array(
-                    array('label' => '基础设置', 'type' => 'setting', 'link' => 'www.baidu.com')
-                ))
-        )),
-    array('label' => 'YOYO美食', 'type' => 'templet_name', 'items' => array(
-            array('label' => '模板管理', 'type' => 'templet_', 'items' => array(
-                    array('label' => '模板列表', 'type' => 'ffg', 'link' => 'www.baidu.com'),
-                    array('label' => '基础设置', 'type' => 'setting', 'link' => 'www.baidu.com')
-                )),
-            array('label' => '邮件模板', 'type' => 'setting', 'items' => array(
-                    array('label' => '基础设置', 'type' => 'setting', 'link' => 'www.baidu.com')
-                )),
-            array('label' => L('menu_channel_name'), 'type' => 'channel_name', 'items' => array(
-                    array('label' => L('menu_model_cat'), 'type' => 'model_cat', 'link' => __MODULE__ . '/ContentModel/sort'),
-                    array('label' => L('menu_model_list'), 'type' => 'model_list', 'link' => __MODULE__ . '/ContentModel/sortlist')
-                )),
-            array('label' => L('menu_linkpage_name'), 'type' => 'linkpage_name', 'items' => array(
-                    array('label' => L('menu_linkpage_cat'), 'type' => 'linkpage_cat', 'link' => __MODULE__ . '/LinkPage/sort'),
-                    array('label' => L('menu_linkpage_list'), 'type' => 'linkpage_list', 'link' => __MODULE__ . '/LinkPage/sortlist')
-                )),
         ))
 );
 

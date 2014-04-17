@@ -10,7 +10,7 @@
  * @package  Controller
  * @todo 视图重新写
  */
-namespace Admin\Action;
+namespace User\Action;
 use Think\Action;
 class SettingAction extends BaseAction {
 

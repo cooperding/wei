@@ -10,7 +10,7 @@
  * @package  Controller
  * @todo 分类各项操作
  */
-namespace Admin\Action;
+namespace User\Action;
 use Think\Action;
 class NewsSortAction extends BaseAction {
 

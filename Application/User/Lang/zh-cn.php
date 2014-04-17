@@ -7,7 +7,7 @@ return array(
     //左侧导航菜单
     'menu_name' => '导航菜单',
     //系统设置
-    'menu_sys_name' => '系统设置',
+    'menu_sys_name' => '基础设置',
     'menu_nav_name' => '导航设置',
     'menu_nav_head' => '网站导航',
     'menu_nav_foot' => '底部导航',

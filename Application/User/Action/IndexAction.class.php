@@ -11,7 +11,7 @@
  * @package  Controller
  * @todo 权限验证
  */
-namespace Admin\Action;
+namespace User\Action;
 use Think\Action;
 class IndexAction extends BaseAction {
 
@@ -25,7 +25,7 @@ class IndexAction extends BaseAction {
      */
     public function index()
     {
-        require_once(APP_PATH . '/Admin/Conf/leftermenu.php'); //引入菜单
+        require_once(APP_PATH . '/User/Conf/leftermenu.php'); //引入菜单
         foreach ($array as $key => $val) {
             foreach ($val['items'] as $skey => $sval) {
                 foreach ($sval['items'] as $sskey => $ssval) {

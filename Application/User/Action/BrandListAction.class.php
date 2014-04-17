@@ -10,7 +10,7 @@
  * @package  Controller
  * @todo
  */
-namespace Admin\Action;
+namespace User\Action;
 use Think\Action;
 class BrandListAction extends BaseAction {
 
