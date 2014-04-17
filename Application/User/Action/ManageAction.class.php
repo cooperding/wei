@@ -1,7 +1,7 @@
 <?php
 
 /**
- * IndexAction.class.php
+ * ManageAction.class.php
  * 后台文件
  * 后台核心文件，登录后跳转页面
  * @author 正侠客 <lookcms@gmail.com>
@@ -13,7 +13,7 @@
  */
 namespace User\Action;
 use Think\Action;
-class IndexAction extends BaseAction {
+class ManageAction extends BaseAction {
 
     /**
      * index
@@ -25,7 +25,16 @@ class IndexAction extends BaseAction {
      */
     public function index()
     {
-        
+        require_once(APP_PATH . '/User/Conf/leftermenu.php'); //引入菜单
+        foreach ($array as $key => $val) {
+            foreach ($val['items'] as $skey => $sval) {
+                foreach ($sval['items'] as $sskey => $ssval) {
+                    if ($ssval['type'] == 'abc') {//echo '<pre>';print_r(c);//exit();
+                        //unset($array[$key]['items'][$sskey]['items'][$sskey]);
+                    }
+                }
+            }
+        }
         $this->assign('menu', $array);
         $this->display();
     }

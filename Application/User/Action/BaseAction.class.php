@@ -19,11 +19,11 @@ class BaseAction extends Action {
     function _initialize()
     {
         //检测是否登录
-        if (session('LOGIN_STATUS') != 'TRUE') {
+        if (session('LOGIN_U_STATUS') != 'TRUE') {
             redirect(__MODULE__ . '/Passport'); //跳转到登录网关
             exit;
         }
-        $uid = session('LOGIN_UID');
+        $uid = session('LOGIN_U_UID');
         if (!in_array($uid, C('ADMINISTRATOR'))) {//验证超级管理员不用进行权限认证
             $auth = new \Think\Auth(); //加载Auth类库
             $authcheck = $auth->check(MODULE_NAME . '/' . ACTION_NAME, session('LOGIN_UID'));
@@ -33,7 +33,7 @@ class BaseAction extends Action {
 //        }
         }
         $this->assign('style_common', '__PUBLIC__/Common');
-        $this->assign('style', '/Skin/Admin/' . C('DEFAULT_THEME') . $skin);
+        $this->assign('style', '/Skin/User/' . C('DEFAULT_THEME') . $skin);
     }
 
 //endf

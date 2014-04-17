@@ -26,10 +26,10 @@ class PassportAction extends Action {
     {
 
         //此处判断是否已经登录，如果登录跳转到后台首页否则跳转到登录页面
-        if (session('LOGIN_STATUS') == 'TRUE') {
+        if (session('LOGIN_U_STATUS') == 'TRUE') {
             $this->redirect('./index');
         } else {
-            $this->assign('style', '/Skin/Admin/' . C('DEFAULT_THEME') . $skin);
+            $this->assign('style', '/Skin/User/' . C('DEFAULT_THEME') . $skin);
             $this->display();
         }
     }
@@ -53,8 +53,8 @@ class PassportAction extends Action {
         $condition['username'] = array('eq', $user_name);
         $password = I('post.user_password');
         if (!empty($user_name) && !empty($password)) {//依据用户名查询
-            $login = D('Operators');
-            $rs = $login->field('username,creat_time,id,password')->where($condition)->find();
+            $login = D('Members');
+            $rs = $login->field('username,addtime,id,password')->where($condition)->find();
             if ($rs) {//对查询出的结果进行判断
                 $password = md5(md5($user_name) . sha1($password));
                 if ($password == $rs['password']) {//判断密码是否匹配
@@ -62,10 +62,10 @@ class PassportAction extends Action {
                         $this->error('您的帐号禁止登录！');
                         exit;
                     }
-                    session('LOGIN_STATUS', 'TRUE');
-                    session('LOGIN_NAME', $rs['username']);
-                    session('LOGIN_UID', $rs['id']);
-                    session('LOGIN_CTIME', $rs['creat_time']);
+                    session('LOGIN_U_STATUS', 'TRUE');
+                    session('LOGIN_U_NAME', $rs['username']);
+                    session('LOGIN_U_UID', $rs['id']);
+                    session('LOGIN_U_CTIME', $rs['creat_time']);
                     $this->success('登陆成功！', './index');
                 } else {
                     $this->error('您的输入密码错误！');
