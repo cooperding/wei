@@ -26,7 +26,7 @@ class IndexAction extends BaseAction {
     public function index()
     {
         
-        $this->assign('menu', $array);
+        
         $this->display();
     }
 

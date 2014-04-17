@@ -32,8 +32,12 @@ class BaseAction extends Action {
 //            exit;
 //        }
         }
-        $this->assign('style_common', '__PUBLIC__/Common');
-        $this->assign('style', '/Skin/User/' . C('DEFAULT_THEME') . $skin);
+        $skin = R('Common/System/getCfg', array('cfg_skin_user'));//获取前台主题皮肤名称
+        if (!$skin) {
+            $skin = C('DEFAULT_THEME');
+        }
+        $this->assign('style_common', '/Common');
+        $this->assign('style', '/Skin/User/' . $skin);
     }
 
 //endf
