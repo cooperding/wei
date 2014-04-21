@@ -32,10 +32,7 @@ class BaseAction extends Action {
 //            exit;
 //        }
         }
-        $skin = R('Common/System/getCfg', array('cfg_skin_user'));//获取前台主题皮肤名称
-        if (!$skin) {
-            $skin = C('DEFAULT_THEME');
-        }
+        $skin = $this->getSkin(); //获取前台主题皮肤名称
         $this->assign('style_common', '/Common');
         $this->assign('style', '/Skin/User/' . $skin);
     }
@@ -77,6 +74,20 @@ class BaseAction extends Action {
     {
         $password = md5(md5($user_name) . sha1($password));
         return $password;
+    }
+    /*
+     * getSkin
+     * 获取站点设置的主题名称
+     * @todo 使用程序读取主题皮肤名称
+     */
+
+    public function getSkin()
+    {
+        $skin = R('Common/System/getCfg', array('cfg_skin_user'));
+        if (!$skin) {
+            $skin = C('DEFAULT_THEME');
+        }
+        return $skin;
     }
 
 }

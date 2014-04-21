@@ -1,23 +1,279 @@
 <include file="Public:header_index" />
-</head>
-<body>
+<div class="dogo-page ">
+
+    <header class="dogo-header">
+        <nav class="navbar navbar-default dogo-header-navbar" role="navigation">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-js-navbar-collapse">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href=""></a>
+            </div>
+            <div class="collapse navbar-collapse bs-js-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a id="" href="{:U('User/Index/index')}" role="button" class="dropdown-toggle" data-toggle="">首页 </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="">
+                            <!--<li role="presentation" class="divider"></li>-->
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a id="" href="#" role="button" class="dropdown-toggle" data-toggle="">功能介绍</a>        
+
+                    </li>
+                    <li class="dropdown">
+                        <a id="" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">案例展示</a>
+                    </li>
+                    <li class="dropdown">
+                        <a id="" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">帮助中心</a>
+                    </li>
+                    <li class="dropdown">
+                        <a id="" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">关于我们</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="fat-menu" class="dropdown">
+                        <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">会员中心<b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
+                            <li><a role="menuitem" href="#" title="登录"> <span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+                            <li><a role="menuitem" href="#" title="注册"><span class="glyphicon glyphicon-plus-sign"></span>注册</a></li>
+                            <li><a role="menuitem" href="#"> <span class="glyphicon glyphicon-question-sign"></span> 忘记密码</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.nav-collapse -->
+        </nav>
+    </header>
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script type="text/javascript" src="__PUBLIC__{$style_common}/js/jquery-2.1.0.min.js"></script>
-    <script type="text/javascript" src="__PUBLIC__{$style_common}/v3.1.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="__PUBLIC__{$style_common}/js/alertify.min.js"></script>
-    <script type="text/javascript" src="__PUBLIC__{$style_common}/js/jquery.cookie.js"></script>
+
+
+
+
+
+
+
+
+    <div class="container">
+
+
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-2">
+                <aside class="dogo-box dogo-border-all dogo-pd510">
+                    <div class="dogo-box-header">
+
+                    </div>
+                    <div class="dogo-box-content">
+                        <div class="dogo-text">
+                            <div class="dogo-text-header">
+                                <h3><a href="">管理中心</a></h3>
+                            </div>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li class="active">
+                                    <a href="#">
+                                        管理主页
+                                    </a>
+                                </li>
+                                <li class=""><a href="#">修改密码</a></li>
+                                <li class=""><a href="#">
+                                        <span class="badge pull-right">3</span>
+                                        公众帐号
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        <span class="badge pull-right">3</span>
+                                        我的消息
+                                    </a>
+                                </li>
+                                <li><a href="#">退出</a></li>
+                            </ul>
+
+
+                        </div><!--dogo-text-->
+                    </div><!--dogo-box-content-->
+                    <div class="dogo-box-footer">
+
+                    </div><!--dogo-box-footer-->
+                </aside><!--dogo-box-->
+                <div class="dogo-blank"></div>
+
+            </div><!--col-md-->
+
+            <div class="col-md-5">
+
+                <article class="dogo-box">
+                    <div class="dogo-box-content dogo-view">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" >
+                                                用户名：<php>echo session('LOGIN_U_NAME');</php>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse in" style="height: auto;">
+                                        <div class="panel-body dogo-wei-mp">
+                                            <ul>
+                                                <li>
+                                                    <img src="http://localhost/20140408/uc_server/data/avatar/000/00/00/01_avatar_small.jpg"/>
+                                                    <b>djc6914</b>
+                                                    <a href="#" class="btn btn-info">编辑</a>
+                                                    <a href="{:U('User/Main/index',array('token'=>'123'))}" class="btn btn-success">功能管理</a>
+                                                    <a href="#" class="btn btn-danger">删除</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <img src="http://localhost/20140408/uc_server/data/avatar/000/00/00/01_avatar_small.jpg"/>
+                                                    <b>djc6914</b>
+                                                    <a href="#" class="btn btn-info">编辑</a>
+                                                    <a href="{:U('User/Main/index',array('token'=>'123'))}" class="btn btn-success">功能管理</a>
+                                                    <a href="#" class="btn btn-danger">删除</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <img src="http://localhost/20140408/uc_server/data/avatar/000/00/00/01_avatar_small.jpg"/>
+                                                    <b>djc6914</b>
+                                                    <a href="#" class="btn btn-info">编辑</a>
+                                                    <a href="{:U('User/Main/index',array('token'=>'123'))}" class="btn btn-success">功能管理</a>
+                                                    <a href="#" class="btn btn-danger">删除</a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div><!--panel-->
+                            </div><!--panel-group-->
+                        
+
+                    </div><!--dogo-box-content-->
+                    <div class="dogo-box-footer">
+                        <div class="row">
+
+                        </div><!--row-->
+                    </div><!--dogo-box-footer-->
+                </article><!--dogo-box-->
+                <div class="dogo-blank"></div>
+
+            </div><!--col-md-->
+
+
+            <div class="col-md-5">
+
+                <article class="dogo-box">
+                    <div class="dogo-box-content dogo-view">
+
+
+                        
+                            <div class="panel-group" id="twoaccordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#twoaccordion" href="#twocollapseOne" class="collapsed">
+                                                Collapsible Group Item #1
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="twocollapseOne" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#twoaccordion" href="#twocollapseTwo" class="">
+                                                Collapsible Group Item #2
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="twocollapseTwo" class="panel-collapse in" style="height: auto;">
+                                        <div class="panel-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#twoaccordion" href="#twocollapseThree" class="collapsed">
+                                                Collapsible Group Item #3
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="twocollapseThree" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div><!--dogo-box-content-->
+                    <div class="dogo-box-footer">
+                        <div class="row">
+
+                        </div><!--row-->
+                    </div><!--dogo-box-footer-->
+                </article><!--dogo-box-->
+                <div class="dogo-blank"></div>
+
+            </div><!--col-md-->
+
+        </div><!--row-->
+        <footer class="dogo-footer">
+            <div class="dogo-blank"></div>
+
+
+
+
+
+            <div class="row">
+                <div class="col-md-12 dogo-align-center">
+                    <p></p>
+                </div><!--col-md-->
+            </div><!--row-->
+        </footer>
+
+
+
+
+        <script type="text/javascript" src="/qiuyun/wei/Public/Common/js/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="/qiuyun/wei/Public/Common/v3.1.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/qiuyun/wei/Public/Common/js/alertify.min.js"></script>
+        <script type="text/javascript" src="/qiuyun/wei/Public/Common/js/jquery.cookie.js"></script>
+
+    </div><!--container-->
+</div><!--dogo-page-->
+
 </body>
 </html>
