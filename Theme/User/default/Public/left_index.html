@@ -1,0 +1,28 @@
+<div class="dogo-text">
+    <div class="dogo-text-header">
+        <h3><a href="">管理中心</a></h3>
+    </div>
+    <ul class="nav nav-pills nav-stacked">
+        <li class="<eq name='sidebar_active' value='index'>active</eq>">
+            <a href="{:U('User/Index/index')}">
+                管理主页
+            </a>
+        </li>
+        <li class="<eq name='sidebar_active' value='changepwd'>active</eq>">
+            <a href="{:U('User/Index/changepwd')}">修改密码</a></li>
+        <li class="<eq name='sidebar_active' value='weixin'>active</eq>">
+            <a href="{:U('User/Index/weixinList')}">
+                <span class="badge pull-right">3</span>
+                公众帐号
+            </a>
+        </li>
+        <li class="<eq name='sidebar_active' value='message'>active</eq>">
+            <a href="{:U('User/Index/message')}">
+                <span class="badge pull-right">3</span>
+                我的消息
+            </a>
+        </li>
+        <li><a href="#">退出</a></li>
+    </ul>
+
+</div><!--dogo-text-->

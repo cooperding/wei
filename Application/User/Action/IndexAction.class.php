@@ -25,8 +25,43 @@ class IndexAction extends BaseAction {
      */
     public function index()
     {
+        $this->assign('sidebar_active','index');
+        $this->display();
+    }
+    /**
+     * changepwd
+     * 修改密码
+     * @access public
+     * @return array
+     */
+    public function changepwd()
+    {
         
+        $this->assign('sidebar_active','changepwd');
+        $this->display();
+    }
+    /**
+     * weixinList
+     * 微信公众帐号列表
+     * @access public
+     * @return array
+     */
+    public function weixinList()
+    {
         
+        $this->assign('sidebar_active','weixin');
+        $this->display();
+    }
+    /**
+     * message
+     * 消息信息
+     * @access public
+     * @return array
+     */
+    public function message()
+    {
+        
+        $this->assign('sidebar_active','message');
         $this->display();
     }
 
