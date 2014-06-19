@@ -25,6 +25,16 @@ class MainAction extends BaseAction {
      */
     public function index()
     {
+        global $token;
+        $token = I('param.token');
+        $uid = session('LOGIN_U_UID');
+        $condition['token'] = array('eq',$token);
+        $condition['members_id'] = array('eq',$uid);
+        $condition['status'] = array('eq',20);
+        $data = M('Weixin')->where($condition)->find();
+        if(!$data){
+            $this->error('该帐号被禁用或者帐号参数不正确！');
+        }
         require_once(APP_PATH . '/User/Conf/leftermenu.php'); //引入菜单
         foreach ($array as $key => $val) {
             foreach ($val['items'] as $skey => $sval) {

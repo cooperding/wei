@@ -11,9 +11,9 @@
  * @package  Controller
  * @todo 完善更多方法
  */
-namespace Home\Action;
+namespace Wei\Action;
 use Think\Action;
-class IndexAction extends BasehomeAction {
+class IndexAction extends BaseweiAction {
 
     public function index()
     {
@@ -21,14 +21,9 @@ class IndexAction extends BasehomeAction {
         $title['sys_name'] = array('eq', 'cfg_title');
         $keywords['sys_name'] = array('eq', 'cfg_keywords');
         $description['sys_name'] = array('eq', 'cfg_description');
-        $data_title = $m->where($title)->find();
-        $data_keywords = $m->where($keywords)->find();
-        $data_description = $m->where($description)->find();
-
+        
+        $this->assign('title','房产');
         $skin = $this->getSkin(); //获取前台主题皮肤名称
-        $this->assign('title', $data_title['sys_value']);
-        $this->assign('keywords', $data_keywords['sys_value']);
-        $this->assign('description', $data_description['sys_value']);
         $this->theme($skin)->display(':index');
     }
 

@@ -93,23 +93,6 @@ $array = array(
                     array('label' => L('menu_linkpage_cat'), 'type' => 'linkpage_cat', 'link' => __MODULE__ . '/LinkPage/sort'),
                     array('label' => L('menu_linkpage_list'), 'type' => 'linkpage_list', 'link' => __MODULE__ . '/LinkPage/sortlist')
                 )),
-        )),
-    array('label' => '扩展管理', 'type' => 'templet_name', 'items' => array(
-            array('label' => '微站基础设置', 'type' => 'setting', 'items' => array(
-                    array('label' => '自定义菜单', 'type' => 'setting', 'link' => 'www.baidu.com')
-                )),
-            array('label' => '微站广告管理', 'type' => 'templet_', 'items' => array(
-                    array('label' => '微广告列表', 'type' => 'ffg', 'link' => 'www.baidu.com'),
-                    array('label' => '基础设置', 'type' => 'setting', 'link' => 'www.baidu.com')
-                )),
-            array('label' => L('menu_channel_name'), 'type' => 'channel_name', 'items' => array(
-                    array('label' => L('menu_model_cat'), 'type' => 'model_cat', 'link' => __MODULE__ . '/ContentModel/sort'),
-                    array('label' => L('menu_model_list'), 'type' => 'model_list', 'link' => __MODULE__ . '/ContentModel/sortlist')
-                )),
-            array('label' => L('menu_linkpage_name'), 'type' => 'linkpage_name', 'items' => array(
-                    array('label' => L('menu_linkpage_cat'), 'type' => 'linkpage_cat', 'link' => __MODULE__ . '/LinkPage/sort'),
-                    array('label' => L('menu_linkpage_list'), 'type' => 'linkpage_list', 'link' => __MODULE__ . '/LinkPage/sortlist')
-                )),
         ))
 );
 

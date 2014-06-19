@@ -12,7 +12,7 @@
             <a href="{:U('User/Index/changepwd')}">修改密码</a></li>
         <li class="<eq name='sidebar_active' value='weixin'>active</eq>">
             <a href="{:U('User/Index/weixinList')}">
-                <span class="badge pull-right">3</span>
+                <span class="badge pull-right">{$count_weixin}</span>
                 公众帐号
             </a>
         </li>
@@ -22,7 +22,7 @@
                 我的消息
             </a>
         </li>
-        <li><a href="#">退出</a></li>
+        <li><a href="{:U('Passport/logout')}">退出</a></li>
     </ul>
 
 </div><!--dogo-text-->

@@ -19,44 +19,30 @@
 
         <div class="col-md-10">
             <article class="dogo-box">
-                <div class="dogo-box-header">
-                    
-                </div><!--dogo-box-header-->
                 <div class="dogo-box-content dogo-view">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a href="{:U('User/Index/weixinAdd')}" data-parent="#accordion">
+                                        添加公众帐号
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse in" style="height: auto;">
 
-
-                    <div class="dogo-wei-mp">
-                        <ul>
-                            <li>
-                                <img src="http://localhost/20140408/uc_server/data/avatar/000/00/00/01_avatar_small.jpg"/>
-                                <b>djc6914</b>
-                                <a href="#" class="btn btn-info">编辑</a>
-                                <a href="{:U('User/Main/index',array('token'=>'123'))}" class="btn btn-success">功能管理</a>
-                                <a href="#" class="btn btn-danger">删除</a>
-                            </li>
-
-                            <li>
-                                <img src="http://localhost/20140408/uc_server/data/avatar/000/00/00/01_avatar_small.jpg"/>
-                                <b>djc6914</b>
-                                <a href="#" class="btn btn-info">编辑</a>
-                                <a href="{:U('User/Main/index',array('token'=>'123'))}" class="btn btn-success">功能管理</a>
-                                <a href="#" class="btn btn-danger">删除</a>
-                            </li>
-
-                            <li>
-                                <img src="http://localhost/20140408/uc_server/data/avatar/000/00/00/01_avatar_small.jpg"/>
-                                <b>djc6914</b>
-                                <a href="#" class="btn btn-info">编辑</a>
-                                <a href="{:U('User/Main/index',array('token'=>'123'))}" class="btn btn-success">功能管理</a>
-                                <a href="#" class="btn btn-danger">删除</a>
-                            </li>
-
-                        </ul>
-                    </div>
+                                <div class="panel-body dogo-wei-mp dogo-ajax-weixinlist">
+                                    <div class="dogo-load-img" style="display: none;">
+                                        <img src="__PUBLIC__{$style_common}/img/bx_loader.gif"/>
+                                    </div>
 
 
 
 
+                                </div>
+                            </div>
+                        </div><!--panel-->
+                    </div><!--panel-group-->
 
 
                 </div><!--dogo-box-content-->
@@ -71,30 +57,47 @@
         </div><!--col-md-->
 
     </div><!--row-->
-    <footer class="dogo-footer">
-        <div class="dogo-blank"></div>
-
-
-
-
-
-        <div class="row">
-            <div class="col-md-12 dogo-align-center">
-                <p></p>
-            </div><!--col-md-->
-        </div><!--row-->
-    </footer>
-
-
-
-
-    <script type="text/javascript" src="/qiuyun/wei/Public/Common/js/jquery-2.1.0.min.js"></script>
-    <script type="text/javascript" src="/qiuyun/wei/Public/Common/v3.1.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/qiuyun/wei/Public/Common/js/alertify.min.js"></script>
-    <script type="text/javascript" src="/qiuyun/wei/Public/Common/js/jquery.cookie.js"></script>
+    <include file="Public:footer" />
 
 </div><!--container-->
 </div><!--dogo-page-->
+<script>
+    $(function() {
+        var url = '{:U("User/Index/getWeixinList")}';
+        $.ajax({
+            type: "post",
+            dataType: 'html',
+            url: url,
+            beforeSend: function() {
+                $('.dogo-load-img').css("display", "block");
+            },
+            success: function(html) {
+                $('.dogo-ajax-weixinlist').html(html);
+            }
+        });
+        $('.dogo-ajax-weixinlist').on('click', '.dogo-click-delete', function() {
+            if (!confirm("确认要禁用该微信公众帐号吗？")) {
+                return false;
+            }
+            var url = '{:U("User/Index/weixinDelete")}';
+            var token =$(this).attr('data-row-token');
+            $.ajax({
+                type: "post",
+                dataType: 'json',
+                url: url,
+                data:{token:token},
+                success: function(data) {
+                    if(data.status==0){
+                        
+                        Alertify.log.success(data.msg, 3000);
+                    }else{
+                        Alertify.log.error(data.msg, 3000);
+                    }
+                }
+            });
 
+        });
+    });
+</script>
 </body>
 </html>

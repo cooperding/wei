@@ -107,7 +107,67 @@ class SystemAction extends BaseApiAction {
         $tree = $qiuyun->list_to_tree($list, 'id', 'parent_id', 'children');
         return $tree;
     }
+    /*
+     * getAccessToken 
+     * 获取access_token
+     * @return json string
+     * 
+     */
 
+    public function getAccessToken($appid, $secret)
+    {
+        $url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential';
+        $url = $url . '&appid=' . $appid . '&secret=' . $secret;
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // 获取数据返回
+        curl_setopt($ch, CURLOPT_BINARYTRANSFER, true); // 在启用 CURLOPT_RETURNTRANSFER 时候将获取数据返回
+        $output = curl_exec($ch);
+        $out = json_decode($output);
+        return $out->access_token; // 返回值access_token
+    }
+
+    /*
+     * createMenu 
+     * 创建微信自定义菜单
+     * @param string $access_token access_token
+     * @param string $json 菜单信息
+     * @return json string errcode
+     * 
+     */
+
+    public function createMenu($access_token, $json)
+    {
+        $url = 'https://api.weixin.qq.com/cgi-bin/menu/create?access_token=' . $access_token;
+        $ch = curl_init(); //初始化curl
+        curl_setopt($ch, CURLOPT_URL, $url); //抓取指定网页
+        curl_setopt($ch, CURLOPT_HEADER, 0); //设置header
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //要求结果为字符串且输出到屏幕上
+        curl_setopt($ch, CURLOPT_POST, 1); //post提交方式
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
+        $data = curl_exec($ch); //运行curl
+        curl_close($ch);
+        return $data;
+    }
+
+    /*
+     * deleteMenu 
+     * 删除微信自定义菜单
+     * @return json string
+     * 
+     */
+
+    public function deleteMenu($access_token)
+    {
+        $url = 'https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=';
+        $url = $url . $access_token;
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // 获取数据返回
+        curl_setopt($ch, CURLOPT_BINARYTRANSFER, true); // 在启用 CURLOPT_RETURNTRANSFER 时候将获取数据返回
+        $output = curl_exec($ch);
+        curl_close($ch);
+        $out = json_decode($output);
+        return $output; // 返回值access_token
+    }
     /*
      * guid
      * 生成uuid

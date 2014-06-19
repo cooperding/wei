@@ -1,0 +1,55 @@
+
+<include file="$tpl_header" />
+
+<div role="main" class="ui-content">
+    
+    <form>
+     <label for="text-1">联系人:</label>
+     <input type="text" name="text-1" id="text-1" value="">
+     <label for="text-3">联系电话:</label>
+     <input type="text" data-clear-btn="true" name="text-3" id="text-3" value="">
+     <label for="date-1">预约时间</label>
+     <input type="date" data-clear-btn="false" name="date-1" id="date-1" value="">
+     <label for="select-choice-8" class="select">预约户型:</label>
+<select name="select-choice-8" id="select-choice-8" multiple="multiple" data-native-menu="false" data-icon="grid" data-iconpos="left">
+    <option>选择户型:</option>
+    <optgroup label="户型列表">
+        <option value="standard" selected="">A户型</option>
+        <option value="rush">B户型</option>
+        <option value="express">C户型</option>
+        <option value="overnight">D户型</option>
+    </optgroup>
+    
+</select>
+     <label for="textarea">备注留言:</label>
+<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+     <button class="ui-btn">提交</button>
+</form>
+
+
+
+</div><!--main-->
+
+<include file="$tpl_footer" />
+
+
+
+
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        pagination: '.pagination',
+        loop: true,
+        grabCursor: true,
+        paginationClickable: true
+    })
+    $('.arrow-left').on('click', function(e) {
+        e.preventDefault()
+        mySwiper.swipePrev()
+    })
+    $('.arrow-right').on('click', function(e) {
+        e.preventDefault()
+        mySwiper.swipeNext()
+    })
+</script>
+</body>
+</html>

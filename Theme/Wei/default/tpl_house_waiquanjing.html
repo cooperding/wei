@@ -1,0 +1,31 @@
+<include file="$tpl_header" />
+<div role="main" class="ui-content">
+
+
+    <div class="spritespin"></div>
+
+
+</div><!--main-->
+<include file="$tpl_footer" />
+<script type="text/javascript" src="__PUBLIC__{$style_common}/js/spritespin.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+        var wl = $(window).width()*0.95;
+        var hl = $(window).height()*0.92;
+        $('.spritespin').spritespin({
+          //source: SpriteSpin.sourceArray('__PUBLIC__{$style}/images/3d/sample-{lane}-{frame}.jpg',
+            source: SpriteSpin.sourceArray('__PUBLIC__{$style}/images/4f/f_{lane}_{frame}.jpg',
+                    {lane: [0, 1], frame: [0, 20], digits: 2}),
+            width: wl,
+            height: hl,
+            frames: 24,
+            lanes: 12,
+            sense: 1,
+            frameTime:80,
+            senseLane: -2,
+            renderer: 'canvas'
+        });
+    });
+</script>
+</body>
+</html>

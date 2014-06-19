@@ -18,6 +18,8 @@ class BaseAction extends Action {
     //初始化
     function _initialize()
     {
+        $token = I('param.token');
+        session('TOKEN',$token);
         //检测是否登录
         if (session('LOGIN_U_STATUS') != 'TRUE') {
             redirect(__MODULE__ . '/Passport'); //跳转到登录网关
@@ -37,7 +39,6 @@ class BaseAction extends Action {
         $this->assign('style', '/Skin/User/' . $skin);
     }
 
-//endf
     /**
      * dmsg
      * json格式提示信息
