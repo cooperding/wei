@@ -25,8 +25,8 @@
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <?php if(session('LOGIN_M_STATUS')=='TRUE'){ ?>
-                            <li><a href="<?php echo U('User/Index/index');?>">我的主页</a></li>
-                            <li><a href="<?php echo U('User/Index/changePwd');?>">修改密码</a></li>
+                            <li><a href="<?php echo U('User/index');?>">我的主页</a></li>
+                            <li><a href="<?php echo U('User/changePwd');?>">修改密码</a></li>
                             <li><a href="javascript:void(0)" class="dogo-click-logout">退出登录</a></li>
                             <?php }else{ ?>
                             <li><a href="<?php echo U('Passport/login');?>" title="登录">登录</a></li>

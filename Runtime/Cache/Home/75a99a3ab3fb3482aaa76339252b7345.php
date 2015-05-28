@@ -25,8 +25,8 @@
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <?php if(session('LOGIN_M_STATUS')=='TRUE'){ ?>
-                            <li><a href="<?php echo U('User/Index/index');?>">我的主页</a></li>
-                            <li><a href="<?php echo U('User/Index/changePwd');?>">修改密码</a></li>
+                            <li><a href="<?php echo U('User/index');?>">我的主页</a></li>
+                            <li><a href="<?php echo U('User/changePwd');?>">修改密码</a></li>
                             <li><a href="javascript:void(0)" class="dogo-click-logout">退出登录</a></li>
                             <?php }else{ ?>
                             <li><a href="<?php echo U('Passport/login');?>" title="登录">登录</a></li>
@@ -138,10 +138,7 @@
     <div class="container dogo-wp">
         <div class="row">
             <div class="col-md-12">
-                <p>Copyright ©2014 人人都是产品经理 - 深圳聚力创想信息科技有限公司 - 粤ICP备14037330号-1 - 网站统计
-</br>
-网站合作和广告投放联系QQ： 2606668171 （加好友请注明来意）</br>
-特别鸣谢 阿里云 赞助服务器，又拍云 赞助图片加速，加速乐 安全支持</p>
+                <p>Copyright ©2014 人人都是产品经理 - 深圳聚力创想信息科技有限公司 - 粤ICP备14037330号-1 - 网站统计</p>
             </div><!--col-md-->
         </div><!--row-->
     </div><!--container-->
