@@ -1,0 +1,72 @@
+[ 2015-04-08T22:20:19+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+ERR: 无法加载模块:User
+
+[ 2015-04-08T22:20:21+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:User
+
+[ 2015-04-08T22:21:09+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+ERR: 无法加载模块:User
+
+[ 2015-04-08T22:21:10+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:User
+
+[ 2015-04-08T22:21:58+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+ERR: 无法加载模块:User
+
+[ 2015-04-08T22:21:59+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+ERR: 无法加载模块:User
+
+[ 2015-04-08T22:21:59+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+ERR: 无法加载模块:User
+
+[ 2015-04-08T22:21:59+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+ERR: 无法加载模块:User
+
+[ 2015-04-08T22:26:32+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+ERR: 无法加载模块:User
+
+[ 2015-04-08T22:37:16+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+ERR: 无法加载模块:User
+
+[ 2015-04-08T22:37:18+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+ERR: 无法加载模块:User
+
+[ 2015-04-08T22:37:19+08:00 ] 127.0.0.1 /User/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+ERR: 无法加载模块:User
+

@@ -1,0 +1,185 @@
+[ 2015-04-07T20:07:59+08:00 ] 127.0.0.1 /admin/Setting/doCache.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2015-04-07T20:28:18+08:00 ] 127.0.0.1 /admin/NewsSort/index?_=1428408453839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2015-04-07T20:28:18+08:00 ] 127.0.0.1 /admin/NewsSort/json.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SELECT `id`,`parent_id`,`text` FROM `ding_news_sort`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ding_news_sort` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2015-04-07T20:28:28+08:00 ] 127.0.0.1 /admin/NewsSort/edit.html?id=10&_=1428408453840
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SELECT * FROM `ding_news_sort` WHERE `id` = '10' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: separator /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Html.class.php 第 208 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2015-04-07T20:28:28+08:00 ] 127.0.0.1 /admin/NewsSort/jsonTree.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SELECT `id`,`parent_id`,`text` FROM `ding_news_sort`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2015-04-07T20:28:42+08:00 ] 127.0.0.1 /admin/NewsSort/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SELECT `id` FROM `ding_news_sort` WHERE `id` = '2' AND `path` LIKE '%,10,%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `ding_news_sort` WHERE `id` = '2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`path` FROM `ding_news_sort` WHERE `path` LIKE '%,10,%' OR `parent_id` = 10  [ RunTime:0.0001s ]
+SQL: UPDATE `ding_news_sort` SET `path`=',2,',`en_name`='php',`updatetime`='1428409722',`text`='php',`status`='20',`parent_id`='2',`keywords`='php编程之美',`description`='php编程之美',`myorder`='0',`template_list`='list_news',`template_content`='' WHERE `id` = '10' [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-04-07T20:28:42+08:00 ] 127.0.0.1 /admin/NewsSort/json.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+SQL: SELECT `id`,`parent_id`,`text` FROM `ding_news_sort`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `ding_news_sort` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2015-04-07T20:29:44+08:00 ] 127.0.0.1 /admin/NewsSort/edit.html?id=3&_=1428408453841
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SELECT * FROM `ding_news_sort` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: separator /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Html.class.php 第 208 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2015-04-07T20:29:44+08:00 ] 127.0.0.1 /admin/NewsSort/jsonTree.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SELECT `id`,`parent_id`,`text` FROM `ding_news_sort`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+

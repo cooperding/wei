@@ -1,0 +1,1834 @@
+[ 2015-04-21T20:38:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_title' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_description' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 58 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 58 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 58 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 237 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 205 行.
+NOTIC: [8] Undefined index: limit /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 206 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 207 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/44c65ac4a14b5adea5b2e7e221033c44.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/44c65ac4a14b5adea5b2e7e221033c44.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/44c65ac4a14b5adea5b2e7e221033c44.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/44c65ac4a14b5adea5b2e7e221033c44.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+SQL: SELECT * FROM `ding_block_list` WHERE (  (`status`='20')  and (`sort_id` =4)  ) ORDER BY myorder asc LIMIT 4   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ding_ads` WHERE (  (`status`='20')  and (`sort_id` =1)  ) ORDER BY myorder asc LIMIT 5   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0027s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 1   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 0,2   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 2,4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ding_ads` WHERE (  (`status`='20')  and (`sort_id` =2)  ) ORDER BY myorder asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0010s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0009s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(5,6)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ding_ads` WHERE (  (`status`='20')  and (`sort_id` =3)  ) ORDER BY myorder asc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(3)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(4)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0009s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(24)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0009s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(25)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_links` WHERE (  (`status`='20')  ) LIMIT 0,10   [ RunTime:0.0016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2015-04-21T20:38:35+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2015-04-21T20:40:26+08:00 ] 127.0.0.1 /Passport/signup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_is_signup' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-04-21T20:40:42+08:00 ] 127.0.0.1 /Search/index.html?words=%E5%BE%97%E5%BE%97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ding_title t WHERE t.title LIKE '%得得%' OR t.keywords LIKE '%得得%' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0016s ]
+SQL: SELECT t.id,t.sort_id,t.title,t.subtitle,t.titlepic,t.views,t.keywords,t.description,t.addtime,t.updatetime,t.num_top,t.num_beat,t.num_comment,ns.text FROM ding_title t INNER JOIN ding_news_sort ns ON ns.id = t.sort_id  WHERE t.title LIKE '%得得%' OR t.keywords LIKE '%得得%' LIMIT 0,10   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: one_data /Library/WebServer/Documents/qiuyun/news/Application/Home/Action/SearchAction.class.php 第 51 行.
+NOTIC: [8] Undefined variable: one_data /Library/WebServer/Documents/qiuyun/news/Application/Home/Action/SearchAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: one_data /Library/WebServer/Documents/qiuyun/news/Application/Home/Action/SearchAction.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 58 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 237 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/7a8349427ec067570b79452ede97f2de.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/7a8349427ec067570b79452ede97f2de.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/7a8349427ec067570b79452ede97f2de.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/7a8349427ec067570b79452ede97f2de.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+SQL: SELECT * FROM `ding_block_list` WHERE (  (`status`='20')  and (`sort_id` =4)  ) ORDER BY myorder asc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0012s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0009s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0014s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0018s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0010s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0010s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ding_ads` WHERE (  (`status`='20')  and (`sort_id` =1)  ) ORDER BY myorder asc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0013s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0010s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-04-21T20:40:42+08:00 ] 127.0.0.1 /qiuyun/shop/Public/Uploads/Images/20140701/53b2bdac897be.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2015-04-21T20:52:49+08:00 ] 127.0.0.1 /Passport/signup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_is_signup' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2015-04-21T20:52:58+08:00 ] 127.0.0.1 /Passport/signup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_is_signup' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-04-21T20:52:58+08:00 ] 127.0.0.1 /Home/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2015-04-21T20:53:07+08:00 ] 127.0.0.1 /Passport/signup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_is_signup' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2015-04-21T20:53:07+08:00 ] 127.0.0.1 /Home/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2015-04-21T20:53:12+08:00 ] 127.0.0.1 /Search/index.html?words=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ding_title t WHERE t.title LIKE '%%' OR t.keywords LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0026s ]
+SQL: SELECT t.id,t.sort_id,t.title,t.subtitle,t.titlepic,t.views,t.keywords,t.description,t.addtime,t.updatetime,t.num_top,t.num_beat,t.num_comment,ns.text FROM ding_title t INNER JOIN ding_news_sort ns ON ns.id = t.sort_id  WHERE t.title LIKE '%%' OR t.keywords LIKE '%%' LIMIT 0,10   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: one_data /Library/WebServer/Documents/qiuyun/news/Application/Home/Action/SearchAction.class.php 第 51 行.
+NOTIC: [8] Undefined variable: one_data /Library/WebServer/Documents/qiuyun/news/Application/Home/Action/SearchAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: one_data /Library/WebServer/Documents/qiuyun/news/Application/Home/Action/SearchAction.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 58 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 237 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/7a8349427ec067570b79452ede97f2de.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/7a8349427ec067570b79452ede97f2de.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/7a8349427ec067570b79452ede97f2de.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/7a8349427ec067570b79452ede97f2de.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+SQL: SELECT * FROM `ding_block_list` WHERE (  (`status`='20')  and (`sort_id` =4)  ) ORDER BY myorder asc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0018s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0009s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0035s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0016s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0011s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0015s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ding_ads` WHERE (  (`status`='20')  and (`sort_id` =1)  ) ORDER BY myorder asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0012s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0030s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0033s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0015s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2015-04-21T20:53:12+08:00 ] 127.0.0.1 /qiuyun/shop/Public/Uploads/Images/20140701/53b2bdac897be.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2015-04-21T20:53:16+08:00 ] 127.0.0.1 /Passport/signup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0009s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_is_signup' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/04ec80f268f35d58b043f1846e4cef8b.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2015-04-21T20:53:16+08:00 ] 127.0.0.1 /Home/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2015-04-21T20:53:23+08:00 ] 127.0.0.1 /Home/Passport/resetPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2015-04-21T20:53:44+08:00 ] 127.0.0.1 /Home/Passport/resetPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/28a3e3f96d235bbce1f5dff2606eff78.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2015-04-21T20:53:44+08:00 ] 127.0.0.1 /Home/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2015-04-21T20:53:48+08:00 ] 127.0.0.1 /Home/Passport/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: referer /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2015-04-21T20:54:17+08:00 ] 127.0.0.1 /Home/Passport/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: referer /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2015-04-21T20:54:17+08:00 ] 127.0.0.1 /Home/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2015-04-21T20:54:19+08:00 ] 127.0.0.1 /Home/Passport/verify.html?tm=0.7377665997482836
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2015-04-21T20:54:20+08:00 ] 127.0.0.1 /Home/Passport/verify.html?tm=0.926096542738378
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2015-04-21T20:55:03+08:00 ] 127.0.0.1 /Home/Passport/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: referer /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-04-21T20:55:03+08:00 ] 127.0.0.1 /Home/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2015-04-21T20:55:14+08:00 ] 127.0.0.1 /Passport/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ding_members` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`email`,`username`,`addtime`,`password`,`status` FROM `ding_members` WHERE ( `email` = 'djc6914' OR `username` = 'djc6914' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+
+[ 2015-04-21T20:55:45+08:00 ] 127.0.0.1 /Home/Passport/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: referer /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2015-04-21T20:55:45+08:00 ] 127.0.0.1 /Home/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2015-04-21T20:57:43+08:00 ] 127.0.0.1 /Passport/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`email`,`username`,`addtime`,`password`,`status` FROM `ding_members` WHERE ( `email` = 'djc6914' OR `username` = 'djc6914' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+
+[ 2015-04-21T20:58:04+08:00 ] 127.0.0.1 /Home/Passport/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: referer /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2015-04-21T20:58:04+08:00 ] 127.0.0.1 /Home/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2015-04-21T20:58:20+08:00 ] 127.0.0.1 /Home/Passport/verify.html?tm=0.6472954815253615
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2015-04-21T20:58:22+08:00 ] 127.0.0.1 /Home/Passport/verify.html?tm=0.8518408285453916
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2015-04-21T20:58:28+08:00 ] 127.0.0.1 /Passport/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`email`,`username`,`addtime`,`password`,`status` FROM `ding_members` WHERE ( `email` = 'djc6914' OR `username` = 'djc6914' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+
+[ 2015-04-21T21:00:54+08:00 ] 127.0.0.1 /Home/Passport/verify.html?tm=0.6092739808373153
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2015-04-21T21:00:56+08:00 ] 127.0.0.1 /Home/Passport/verify.html?tm=0.2976551214233041
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2015-04-21T21:01:04+08:00 ] 127.0.0.1 /Passport/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`email`,`username`,`addtime`,`password`,`status` FROM `ding_members` WHERE ( `email` = 'djc6914' OR `username` = 'djc6914' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-21T21:03:30+08:00 ] 127.0.0.1 /Passport/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+
+[ 2015-04-21T21:03:38+08:00 ] 127.0.0.1 /Home/Passport/verify.html?tm=0.3478144283872098
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-04-21T21:03:46+08:00 ] 127.0.0.1 /Passport/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`email`,`username`,`addtime`,`password`,`status` FROM `ding_members` WHERE ( `email` = 'djc6914' OR `username` = 'djc6914' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-21T21:12:33+08:00 ] 127.0.0.1 /Passport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+
+[ 2015-04-21T21:13:53+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2015-04-21T21:13:53+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+
+[ 2015-04-21T21:14:58+08:00 ] 127.0.0.1 /Passport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0005s ]
+
+[ 2015-04-21T21:15:05+08:00 ] 127.0.0.1 /Passport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+
+[ 2015-04-21T21:15:06+08:00 ] 127.0.0.1 /Passport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+
+[ 2015-04-21T21:15:06+08:00 ] 127.0.0.1 /Passport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0001s ]
+
+[ 2015-04-21T21:18:11+08:00 ] 127.0.0.1 /Passport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: keywords /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 8 行.
+NOTIC: [8] Undefined variable: description /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 9 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: referer /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/75a99a3ab3fb3482aaa76339252b7345.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2015-04-21T21:18:11+08:00 ] 127.0.0.1 /Home/Passport/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2015-04-21T21:18:34+08:00 ] 127.0.0.1 /Home/Passport/verify.html?tm=0.13526840298436582
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-04-21T21:18:40+08:00 ] 127.0.0.1 /Passport/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`email`,`username`,`addtime`,`password`,`status` FROM `ding_members` WHERE ( `email` = 'djc6914' OR `username` = 'djc6914' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2015-04-21T21:18:41+08:00 ] 127.0.0.1 /Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_title' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_description' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 58 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 58 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 58 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 237 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 205 行.
+NOTIC: [8] Undefined index: limit /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 206 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 207 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/44c65ac4a14b5adea5b2e7e221033c44.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/44c65ac4a14b5adea5b2e7e221033c44.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/44c65ac4a14b5adea5b2e7e221033c44.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/44c65ac4a14b5adea5b2e7e221033c44.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+SQL: SELECT * FROM `ding_block_list` WHERE (  (`status`='20')  and (`sort_id` =4)  ) ORDER BY myorder asc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_ads` WHERE (  (`status`='20')  and (`sort_id` =1)  ) ORDER BY myorder asc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0009s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 0,2   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 2,4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ding_ads` WHERE (  (`status`='20')  and (`sort_id` =2)  ) ORDER BY myorder asc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0010s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0007s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(5,6)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ding_ads` WHERE (  (`status`='20')  and (`sort_id` =3)  ) ORDER BY myorder asc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(3)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0012s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(4)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0010s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(24)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0007s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(25)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ding_links` WHERE (  (`status`='20')  ) LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2015-04-21T21:55:55+08:00 ] 127.0.0.1 /News/Content/index/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+ERR: 无法加载控制器:News
+
+[ 2015-04-21T21:56:00+08:00 ] 127.0.0.1 /Content/index/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0012s ]
+SQL: SELECT t.*,c.content FROM ding_title t INNER JOIN ding_content c ON c.title_id = t.id   WHERE t.id = '5' AND t.status = '12' AND t.is_recycle = '10' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `ding_title` SET `views`=views+1 WHERE `id` = '5' [ RunTime:0.0026s ]
+SQL: SELECT `template_content` FROM `ding_news_sort` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 237 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/c91d7ee8aa728cace911bda0ee0779a5.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/c91d7ee8aa728cace911bda0ee0779a5.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/c91d7ee8aa728cace911bda0ee0779a5.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/c91d7ee8aa728cace911bda0ee0779a5.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+SQL: SELECT * FROM `ding_block_list` WHERE (  (`status`='20')  and (`sort_id` =4)  ) ORDER BY myorder asc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0012s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2015-04-21T21:58:25+08:00 ] 127.0.0.1 /Content/index/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0077s ]
+SQL: SELECT t.*,c.content FROM ding_title t INNER JOIN ding_content c ON c.title_id = t.id   WHERE t.id = '5' AND t.status = '12' AND t.is_recycle = '10' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `ding_title` SET `views`=views+1 WHERE `id` = '5' [ RunTime:0.0002s ]
+SQL: SELECT `template_content` FROM `ding_news_sort` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 237 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/c91d7ee8aa728cace911bda0ee0779a5.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/c91d7ee8aa728cace911bda0ee0779a5.php 第 66 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/c91d7ee8aa728cace911bda0ee0779a5.php 第 62 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/c91d7ee8aa728cace911bda0ee0779a5.php 第 66 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+SQL: SELECT * FROM `ding_block_list` WHERE (  (`status`='20')  and (`sort_id` =4)  ) ORDER BY myorder asc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0010s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0010s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+

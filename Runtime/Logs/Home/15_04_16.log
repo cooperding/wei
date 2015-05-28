@@ -1,0 +1,182 @@
+[ 2015-04-16T20:30:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003568s ]
+SQL: SELECT `sys_value` FROM `ding_setting` WHERE `sys_name` = 'cfg_skin_web' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ding_nav_head` WHERE `status` = 20  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ding_nav_foot` WHERE `status` = 20  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_title' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_description' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Think.class.php 第 198 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 135 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 136 行.
+NOTIC: [8] Undefined index: tid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 137 行.
+NOTIC: [8] Undefined index: flag /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 139 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 140 行.
+NOTIC: [8] Undefined index: keywords /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 141 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 58 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 58 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 58 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 237 行.
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_sitename' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_copyright' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ding_setting` WHERE `sys_name` = 'cfg_tongji' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: typeid /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 205 行.
+NOTIC: [8] Undefined index: limit /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 206 行.
+NOTIC: [8] Undefined index: order /Library/WebServer/Documents/qiuyun/news/Core/Library/Think/Template/TagLib/Dogocms.class.php 第 207 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/ba296b41ea57823f7fa6dfe071834057.php 第 56 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/ba296b41ea57823f7fa6dfe071834057.php 第 60 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/ba296b41ea57823f7fa6dfe071834057.php 第 56 行.
+NOTIC: [8] Undefined index: children /Library/WebServer/Documents/qiuyun/news/Runtime/Cache/Home/ba296b41ea57823f7fa6dfe071834057.php 第 60 行.
+NOTIC: [8] Undefined index: m /Library/WebServer/Documents/qiuyun/news/Core/Common/functions.php 第 948 行.
+SQL: SELECT * FROM `ding_block_list` WHERE (  (`status`='20')  and (`sort_id` =4)  ) ORDER BY myorder asc LIMIT 4   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ding_ads` WHERE (  (`status`='20')  and (`sort_id` =1)  ) ORDER BY myorder asc LIMIT 5   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0026s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 1   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 0,2   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0007s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 2,4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ding_ads` WHERE (  (`status`='20')  and (`sort_id` =2)  ) ORDER BY myorder asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(22)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(26)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0007s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(9)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(10)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0007s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(12)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0009s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0009s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(5,6)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ding_ads` WHERE (  (`status`='20')  and (`sort_id` =3)  ) ORDER BY myorder asc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(3)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0007s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(4)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(24)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ding_title` [ RunTime:0.0008s ]
+SQL: SELECT t.*,c.content,ns.text as sortname FROM ding_title t INNER JOIN  ding_news_sort ns on ns.id=t.sort_id  INNER JOIN  ding_content c on c.title_id=t.id   WHERE (  (t.`status`='12')  and (t.`is_recycle`='10')  and (t.`sort_id` in(25)) ) ORDER BY t.id desc LIMIT 8   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ding_links` WHERE (  (`status`='20')  ) LIMIT 0,10   [ RunTime:0.0016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-04-16T20:30:59+08:00 ] 127.0.0.1 /qiuyun/shop/Public/Uploads/Images/20140701/53b2bdac897be.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2015-04-16T20:30:59+08:00 ] 127.0.0.1 /qiuyun/shop/Public/Uploads/Images/20140701/53b2bdfbe27aa.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2015-04-16T20:31:00+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
