@@ -64,8 +64,9 @@ class ApibaseAction extends Action {
         }
     }
 
-    private function checkSignature() {
+    private function checkSignature($token, $timestamp, $nonce, $signature) {
         // you must define TOKEN by yourself
+        /*
         if (!defined("TOKEN")) {
             throw new Exception('TOKEN is not defined!');
         }
@@ -73,8 +74,9 @@ class ApibaseAction extends Action {
         $signature = $_GET["signature"];
         $timestamp = $_GET["timestamp"];
         $nonce = $_GET["nonce"];
-
-        $token = TOKEN;
+        */
+        
+        //$token = TOKEN;
         $tmpArr = array($token, $timestamp, $nonce);
         // use SORT_STRING rule
         sort($tmpArr, SORT_STRING);

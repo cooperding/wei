@@ -17,6 +17,35 @@ class ApiAction extends ApibaseAction {
 
     //初始化
     function _initialize() {
+        //signature 微信加密签名，signature结合了开发者填写的token参数和请求中的timestamp参数、nonce参数。
+        //timestamp 时间戳
+        //nonce 随机数
+        //echostr   随机字符串
+        
+        $echoStr = $_GET["echostr"];
+        $token = $_GET['token'];
+        $signature = $_GET["signature"];
+        $timestamp = $_GET["timestamp"];
+        $nonce = $_GET["nonce"];
+        
+        defined("TOKEN",$token);
+        if ($this->checkSignature($token, $timestamp, $nonce, $signature)) {
+            echo $echoStr;
+            exit;
+        }
+        
+        
+        
+        if (!defined("TOKEN")) {
+            throw new Exception('TOKEN is not defined!');
+        }
+        
+        $signature = $_GET["signature"];
+        $timestamp = $_GET["timestamp"];
+        $nonce = $_GET["nonce"];
+        
+        
+        
         
     }
 
