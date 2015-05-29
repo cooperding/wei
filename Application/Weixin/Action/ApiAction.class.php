@@ -19,11 +19,6 @@ use Think\Action;
 //weixin/api/token/dede
 class ApiAction extends ApibaseAction {
 
-    //初始化
-    function _initialize() {
-        
-    }
-
     function index() {
 
         //signature 微信加密签名，signature结合了开发者填写的token参数和请求中的timestamp参数、nonce参数。
@@ -44,11 +39,10 @@ class ApiAction extends ApibaseAction {
             exit;
         }
     }
-
+    //回复响应操作
     public function responseMsg() {
         //get post data, May be due to the different environments
         $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-
         //extract post data
         if (!empty($postStr)) {
             /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
@@ -63,18 +57,25 @@ class ApiAction extends ApibaseAction {
             switch ($MsgType) {
                 //接收消息
                 case "text"://文本消息
+
                     break;
                 case "image"://图片消息
+
                     break;
                 case "voice"://语音消息
+
                     break;
                 case "video"://视频消息
+
                     break;
                 case "shortvideo"://小视频消息
+
                     break;
                 case "location"://地理位置消息
+
                     break;
                 case "link"://链接消息
+
                     break;
                 //接收事件
                 case "event":
@@ -101,17 +102,7 @@ class ApiAction extends ApibaseAction {
              * 回复音乐消息
              * 回复图文消息
              */
-
-
-
-            $textTpl = "<xml>
-							<ToUserName><![CDATA[%s]]></ToUserName>
-							<FromUserName><![CDATA[%s]]></FromUserName>
-							<CreateTime>%s</CreateTime>
-							<MsgType><![CDATA[%s]]></MsgType>
-							<Content><![CDATA[%s]]></Content>
-							<FuncFlag>0</FuncFlag>
-							</xml>";
+            
             if (!empty($keyword)) {
                 $msgType = "text";
                 $contentStr = "Welcome to wechat world!";
@@ -124,6 +115,116 @@ class ApiAction extends ApibaseAction {
             echo "";
             exit;
         }
+    }
+    //回复响应事件
+    public function responseEvent() {
+        //回复文本消息
+        $textTpl = "<xml>
+                <ToUserName><![CDATA[%s]]></ToUserName>
+                <FromUserName><![CDATA[%s]]></FromUserName>
+                <CreateTime>%s</CreateTime>
+                <MsgType><![CDATA[%s]]></MsgType>
+                <Content><![CDATA[%s]]></Content>
+                </xml>";
+    }
+    //回复文本消息
+    public function responseText() {
+        //回复文本消息
+        $textTpl = "<xml>
+                <ToUserName><![CDATA[%s]]></ToUserName>
+                <FromUserName><![CDATA[%s]]></FromUserName>
+                <CreateTime>%s</CreateTime>
+                <MsgType><![CDATA[%s]]></MsgType>
+                <Content><![CDATA[%s]]></Content>
+                </xml>";
+    }
+
+    //回复图片消息
+    public function responseImage() {
+        //回复图片消息
+        $textTpl = "<xml>
+                <ToUserName><![CDATA[toUser]]></ToUserName>
+                <FromUserName><![CDATA[fromUser]]></FromUserName>
+                <CreateTime>12345678</CreateTime>
+                <MsgType><![CDATA[image]]></MsgType>
+                <Image>
+                <MediaId><![CDATA[media_id]]></MediaId>
+                </Image>
+                </xml>";
+    }
+
+    //回复语音消息
+    public function responseVoice() {
+        //回复语音消息
+        $textTpl = "<xml>
+                <ToUserName><![CDATA[toUser]]></ToUserName>
+                <FromUserName><![CDATA[fromUser]]></FromUserName>
+                <CreateTime>12345678</CreateTime>
+                <MsgType><![CDATA[voice]]></MsgType>
+                <Voice>
+                <MediaId><![CDATA[media_id]]></MediaId>
+                </Voice>
+                </xml>";
+    }
+
+    //回复视频消息
+    public function responseVideo() {
+        //回复视频消息
+        $textTpl = "<xml>
+                <ToUserName><![CDATA[toUser]]></ToUserName>
+                <FromUserName><![CDATA[fromUser]]></FromUserName>
+                <CreateTime>12345678</CreateTime>
+                <MsgType><![CDATA[video]]></MsgType>
+                <Video>
+                <MediaId><![CDATA[media_id]]></MediaId>
+                <Title><![CDATA[title]]></Title>
+                <Description><![CDATA[description]]></Description>
+                </Video> 
+                </xml>";
+    }
+
+    //回复音乐消息
+    public function responseMusic() {
+        //回复音乐消息
+        $textTpl = "<xml>
+                <ToUserName><![CDATA[toUser]]></ToUserName>
+                <FromUserName><![CDATA[fromUser]]></FromUserName>
+                <CreateTime>12345678</CreateTime>
+                <MsgType><![CDATA[music]]></MsgType>
+                <Music>
+                <Title><![CDATA[TITLE]]></Title>
+                <Description><![CDATA[DESCRIPTION]]></Description>
+                <MusicUrl><![CDATA[MUSIC_Url]]></MusicUrl>
+                <HQMusicUrl><![CDATA[HQ_MUSIC_Url]]></HQMusicUrl>
+                <ThumbMediaId><![CDATA[media_id]]></ThumbMediaId>
+                </Music>
+                </xml>";
+    }
+
+    //回复图文消息
+    public function responseNews() {
+        //回复图文消息--单条图文、多条图文
+        $textTpl = "<xml>
+                <ToUserName><![CDATA[toUser]]></ToUserName>
+                <FromUserName><![CDATA[fromUser]]></FromUserName>
+                <CreateTime>12345678</CreateTime>
+                <MsgType><![CDATA[news]]></MsgType>
+                <ArticleCount>2</ArticleCount>
+                <Articles>
+                <item>
+                <Title><![CDATA[title1]]></Title> 
+                <Description><![CDATA[description1]]></Description>
+                <PicUrl><![CDATA[picurl]]></PicUrl>
+                <Url><![CDATA[url]]></Url>
+                </item>
+                <item>
+                <Title><![CDATA[title]]></Title>
+                <Description><![CDATA[description]]></Description>
+                <PicUrl><![CDATA[picurl]]></PicUrl>
+                <Url><![CDATA[url]]></Url>
+                </item>
+                </Articles>
+                </xml>";
     }
 
 }
