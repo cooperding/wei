@@ -166,6 +166,15 @@ margin-right: -10px;}
     -o-transition:all 1s ease-in-out .5s;
     transition:all 1s ease-in-out .5s;
 }
+/*dogo-nav-sidebar*/
+.dogo-nav-sidebar .list-group a.list-group-item{padding-left: 30px;}
+.dogo-nav-sidebar .list-group a.dogo-nav-header{padding-left: 15px;}
+
+
+
+
+
+
 
 
 

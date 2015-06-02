@@ -16,7 +16,7 @@ namespace Home\Action;
 
 use Think\Action;
 
-class UserAction extends BaseuserAction {
+class UserWeixinAction extends BaseuserAction {
 
     /**
      * index
@@ -41,245 +41,10 @@ class UserAction extends BaseuserAction {
         $this->assign('title', '会员中心');
         $this->assign('sidebar_active', 'index');
         $this->assign('data', $data);
-        $this->theme($skin)->display($tpl_user . 'index');
+        $this->theme($skin)->display($tpl_user . 'wx_list');
     }
 
-    /**
-     * personal
-     * 个人资料
-     * @return display
-     * @version dogocms 1.0
-     * @todo 权限验证
-     */
-    public function personal() {
-        $m = M('Members');
-        $uid = session('LOGIN_M_ID');
-        $condition['id'] = array('eq', $uid);
-        $data = $m->field('username,sex,signature,birthday')->where($condition)->find();
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '个人资料');
-        $this->assign('sidebar_active', 'personal');
-        $this->assign('data', $data);
-        $this->theme($skin)->display($tpl_user . 'personal');
-    }
-
-    /**
-     * personal
-     * 个人资料
-     * @return display
-     * @version dogocms 1.0
-     * @todo 权限验证
-     */
-    public function email() {
-        $m = M('Members');
-        $uid = session('LOGIN_M_ID');
-        $condition['id'] = array('eq', $uid);
-        $data = $m->field('email,email_status')->where($condition)->find();
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '邮箱信息');
-        $this->assign('sidebar_active', 'email');
-        $this->assign('data', $data);
-        $this->theme($skin)->display($tpl_user . 'email');
-    }
-
-    /**
-     * changePwd
-     * 修改密码
-     * @return display
-     * @version dogocms 1.0
-     * @todo 权限验证
-     */
-    public function changePwd() {
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '修改密码');
-        $this->assign('sidebar_active', 'changepwd');
-        $this->theme($skin)->display($tpl_user . 'changepwd');
-    }
-
-    /**
-     * addressList
-     * 收货地址列表
-     * @return display
-     * @version dogocms 1.0
-     * @todo 
-     */
-    public function addressList() {
-        $m = D('MembersAddress');
-        $uid = session('LOGIN_M_ID');
-        $condition['members_id'] = array('eq', $uid);
-        $data = $m->where($condition)->select();
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '收货地址列表');
-        $this->assign('sidebar_active', 'address');
-        $this->assign('list', $data);
-        $this->theme($skin)->display($tpl_user . 'address_list');
-    }
-
-    /**
-     * ordersList
-     * 订单信息列表
-     * @return display
-     * @version dogocms 1.0
-     * @todo 
-     */
-    public function ordersList() {
-        $m = M('OrderList');
-        $uid = session('LOGIN_M_ID');
-        $condition['members_id'] = array('eq', $uid);
-        $count = $m->where($condition)->count();
-        $page = new \Org\Util\QiuyunPage($count, 2); // 实例化分页类 传入总记录数和每页显示的记录数
-        $page->setConfig('header', '条记录');
-        $page->setConfig('theme', "%UP_PAGE% %FIRST% %LINK_PAGE% %DOWN_PAGE% %END% <li><span>%TOTAL_ROW% %HEADER% %NOW_PAGE%/%TOTAL_PAGE% 页</span></li>");
-        $show = $page->show(); // 分页显示输出
-        // 进行分页数据查询 注意limit方法的参数要使用Page类的属性
-        $list = $m->where($condition)
-                //->field('t.*,c.*')
-                //->order('t.id desc')
-                ->limit($page->firstRow . ',' . $page->listRows)
-                ->select();
-        // 进行分页数据查询 注意limit方法的参数要使用Page类的属性
-//        $list = $m->Table(C('DB_PREFIX') . 'title t')
-//                ->join(C('DB_PREFIX') . 'content c ON c.title_id = t.id ')
-//                ->where($condition)
-//                ->field('t.*,c.*')
-//                ->order('t.id desc')
-//                ->limit($page->firstRow . ',' . $page->listRows)
-//                ->select();
-//        dump($list);
-//        echo $count;
-//        exit;
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '订单列表');
-        $this->assign('page', $show); // 赋值分页输出
-        $this->assign('sidebar_active', 'orders');
-        $this->assign('list', $list);
-        $this->theme($skin)->display($tpl_user . 'orders_list');
-    }
-
-    /**
-     * addressAdd
-     * 收货地址-添加
-     * @return display
-     * @version dogocms 1.0
-     * @todo 
-     */
-    public function addressAdd() {
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '添加收货地址');
-        $this->assign('sidebar_active', 'address');
-        $this->theme($skin)->display($tpl_user . 'address_add');
-    }
-
-    /**
-     * addressEdit
-     * 收货地址-编辑
-     * @return display
-     * @version dogocms 1.0
-     * @todo 
-     */
-    public function addressEdit() {
-        $m = D('MembersAddress');
-        $uid = session('LOGIN_M_ID');
-        $condition['members_id'] = array('eq', $uid);
-        $condition['id'] = array('eq', I('get.id'));
-        $data = $m->where($condition)->find();
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '修改收货地址');
-        $this->assign('sidebar_active', 'changepwd');
-        $this->assign('data', $data);
-        $this->theme($skin)->display($tpl_user . 'address_edit');
-    }
-
-    /**
-     * newsAdd
-     * 信息-添加
-     * @return display
-     * @version dogocms 1.0
-     * @todo 
-     */
-    public function newsAdd() {
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '我要投稿');
-        $this->assign('sidebar_active', 'news_add');
-        $this->theme($skin)->display($tpl_user . 'news_add');
-    }
-
-    /**
-     * newsEdit
-     * 信息-编辑
-     * @return display
-     * @version dogocms 1.0
-     * @todo 
-     */
-    public function newsEdit() {
-        $m = D('Title');
-        $uid = session('LOGIN_M_ID');
-        $condition['t.members_id'] = array('eq', $uid);
-        $condition['t.id'] = array('eq', I('get.id'));
-        $data = $m->Table(C('DB_PREFIX') . 'title t')
-                        ->field('t.*,c.content')
-                        ->join(C('DB_PREFIX') . 'content c ON c.title_id = t.id ')
-                        ->where($condition)->find();
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '修改信息');
-        $this->assign('sidebar_active', 'news_edit');
-        $this->assign('data', $data);
-        $this->theme($skin)->display($tpl_user . 'news_edit');
-    }
-
-    /**
-     * newsList
-     * news列表信息
-     * @return display
-     * @version dogocms 1.0
-     * @todo 
-     */
-    public function newsList() {
-        $t = D('Title');
-        $uid = session('LOGIN_M_ID');
-        $condition['t.members_id'] = array('eq', $uid);
-        $count = $t->Table(C('DB_PREFIX') . 'title t')
-                        ->join(C('DB_PREFIX') . 'content c ON c.title_id = t.id ')
-                        ->where($condition)->count();
-        $page = new \Org\Util\QiuyunPage($count, 8); // 实例化分页类 传入总记录数和每页显示的记录数
-        $page->setConfig('header', '条记录');
-        $page->setConfig('theme', "%UP_PAGE% %FIRST% %LINK_PAGE% %DOWN_PAGE% %END% <li><span>%TOTAL_ROW% %HEADER% %NOW_PAGE%/%TOTAL_PAGE% 页</span></li>");
-        $show = $page->show(); // 分页显示输出
-        // 进行分页数据查询 注意limit方法的参数要使用Page类的属性
-        $list = $t->Table(C('DB_PREFIX') . 'title t')
-                ->join(C('DB_PREFIX') . 'content c ON c.title_id = t.id ')
-                ->where($condition)
-                ->field('t.*,c.*')
-                ->order('t.id desc')
-                ->limit($page->firstRow . ',' . $page->listRows)
-                ->select();
-
-        foreach ($list as $k => $v) {
-            if ($v['status'] == '12') {
-                $list[$k]['status'] = '已审核';
-            } else if ($v['status'] == '11') {
-                $list[$k]['status'] = '未通过审核';
-            } else if ($v['status'] == '10') {
-                $list[$k]['status'] = '待审核';
-            }
-        }
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '我的信息列表');
-        $this->assign('sidebar_active', 'news_list');
-        $this->assign('list', $list);
-        $this->assign('page', $show); // 赋值分页输出
-        $this->theme($skin)->display($tpl_user . 'news_list');
-    }
+    
 
     /**
      * apiList
@@ -315,7 +80,7 @@ class UserAction extends BaseuserAction {
      * @version dogocms 1.0
      * @todo 
      */
-    public function apiListAdd() {
+    public function wxListAdd() {
         $skin = $this->skin; //获取前台主题皮肤名称
         $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
         $this->assign('title', '添加API信息');

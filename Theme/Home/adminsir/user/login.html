@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-12 ">
             <div class="dogo-box">
-                <form class="form-horizontal" role="form" action="{:U('User/Passport/checkLogin')}" method="post">
+                <form class="form-horizontal" role="form" action="{:U('Passport/checkLogin')}" method="post">
                     <input type="hidden" name="referer" value="<php> echo $_GET['referer'];</php>"/>
                     <div class="form-group">
                         <label for="emailLogin" class="col-sm-2 control-label input-lg">帐号：</label>
@@ -25,7 +25,7 @@
                         </div>
 
                         <span class="dogo-click-yzmurl col-sm-3" style="cursor: pointer;">
-                            <img src="{:U('User/Passport/verify')}" title="看不清？点击更换另一个验证码。" style="width: 150px;"/>
+                            <img src="{:U('Home/Passport/verify')}" title="看不清？点击更换另一个验证码。" style="width: 150px;"/>
                         </span>
                     </div>
                     <div class="dogo-blank"></div>
@@ -38,8 +38,8 @@
 
                 <div class="dogo-blank"></div>
                 <div class="dogo-box dogo-align-right dogo-mt50">
-                    <a href="{:U('User/Passport/signup')}">注册</a>
-                    <a href="{:U('User/Passport/resetPassword')}" class="dogo-ml10">忘记密码？</a>
+                    <a href="{:U('Home/Passport/signup')}">注册</a>
+                    <a href="{:U('Home/Passport/resetPassword')}" class="dogo-ml10">忘记密码？</a>
                 </div><!--dogo-align-right-->
             </div><!--dogo-member-->
 
@@ -61,7 +61,7 @@
 <script>
     $(function () {
         $('.dogo-click-yzmurl').click(function () {
-            var url = "{:U('User/Passport/verify')}?tm=" + Math.random();
+            var url = "{:U('Home/Passport/verify')}?tm=" + Math.random();
             $('.dogo-click-yzmurl img').attr('src', url);
         });
     });

@@ -77,7 +77,7 @@
     <div class="row">
         <div class="col-md-12 ">
             <div class="dogo-box">
-                <form class="form-horizontal" role="form" action="<?php echo U('User/Passport/checkLogin');?>" method="post">
+                <form class="form-horizontal" role="form" action="<?php echo U('Passport/checkLogin');?>" method="post">
                     <input type="hidden" name="referer" value="<?php echo $_GET['referer']; ?>"/>
                     <div class="form-group">
                         <label for="emailLogin" class="col-sm-2 control-label input-lg">帐号：</label>
@@ -98,7 +98,7 @@
                         </div>
 
                         <span class="dogo-click-yzmurl col-sm-3" style="cursor: pointer;">
-                            <img src="<?php echo U('User/Passport/verify');?>" title="看不清？点击更换另一个验证码。" style="width: 150px;"/>
+                            <img src="<?php echo U('Home/Passport/verify');?>" title="看不清？点击更换另一个验证码。" style="width: 150px;"/>
                         </span>
                     </div>
                     <div class="dogo-blank"></div>
@@ -111,8 +111,8 @@
 
                 <div class="dogo-blank"></div>
                 <div class="dogo-box dogo-align-right dogo-mt50">
-                    <a href="<?php echo U('User/Passport/signup');?>">注册</a>
-                    <a href="<?php echo U('User/Passport/resetPassword');?>" class="dogo-ml10">忘记密码？</a>
+                    <a href="<?php echo U('Home/Passport/signup');?>">注册</a>
+                    <a href="<?php echo U('Home/Passport/resetPassword');?>" class="dogo-ml10">忘记密码？</a>
                 </div><!--dogo-align-right-->
             </div><!--dogo-member-->
 
@@ -134,10 +134,7 @@
                 <nav>
                     <?php if(is_array($navfoot)): $i = 0; $__LIST__ = $navfoot;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navlist): $mod = ($i % 2 );++$i;?><a href="<?php echo ($navlist["url"]); ?>"><?php echo ($navlist["text"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
                 </nav>
-                <p>Copyright ©2014 人人都是产品经理 - 深圳聚力创想信息科技有限公司 - 粤ICP备14037330号-1 - 网站统计
-</br>
-网站合作和广告投放联系QQ： 2606668171 （加好友请注明来意）</br>
-特别鸣谢 阿里云 赞助服务器，又拍云 赞助图片加速，加速乐 安全支持</p>
+                <p>Copyright ©2014 人人都是产品经理 - 深圳聚力创想信息科技有限公司 - 粤ICP备14037330号-1 - 网站统计</p>
             </div><!--col-md-->
         </div><!--row-->
     </div><!--container-->
@@ -167,7 +164,7 @@
 <script>
     $(function () {
         $('.dogo-click-yzmurl').click(function () {
-            var url = "<?php echo U('User/Passport/verify');?>?tm=" + Math.random();
+            var url = "<?php echo U('Home/Passport/verify');?>?tm=" + Math.random();
             $('.dogo-click-yzmurl img').attr('src', url);
         });
     });
