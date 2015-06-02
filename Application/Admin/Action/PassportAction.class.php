@@ -46,7 +46,7 @@ class PassportAction extends Action {
         $ver_code = I('post.vd_code');
         $verify_status = $this->check_verify($ver_code);
         if (!$verify_status) {
-            $this->error('验证码输入错误或已过期！');
+            $this->error('验证码输入错误或已过期！', U('Passport/index'));
             exit;
         }
         $user_name = I('post.user_name');
@@ -61,7 +61,7 @@ class PassportAction extends Action {
                 $password = R('Common/System/getPwd', array($user_name, $password));
                 if ($password == $rs['password']) {//判断密码是否匹配
                     if ($rs['status'] == '10') {
-                        $this->error('您的帐号禁止登录！');
+                        $this->error('您的帐号禁止登录！', U('Passport/index'));
                         exit;
                     }
                     session('LOGIN_STATUS', 'TRUE');
@@ -70,13 +70,13 @@ class PassportAction extends Action {
                     session('LOGIN_CTIME', $rs['creat_time']);
                     $this->success('登陆成功！', './index');
                 } else {
-                    $this->error('您的输入密码错误！');
+                    $this->error('您的输入密码错误！', U('Passport/index'));
                 }
             } else {
-                $this->error('您的输入用户名或者密码错误！');
+                $this->error('您的输入用户名或者密码错误！', U('Passport/index'));
             }
         } else {
-            $this->error('用户名或密码输入为空！');
+            $this->error('用户名或密码输入为空！', U('Passport/index'));
         }
     }
 

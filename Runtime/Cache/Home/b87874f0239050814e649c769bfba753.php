@@ -125,10 +125,7 @@
                 <nav>
                     <?php if(is_array($navfoot)): $i = 0; $__LIST__ = $navfoot;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navlist): $mod = ($i % 2 );++$i;?><a href="<?php echo ($navlist["url"]); ?>"><?php echo ($navlist["text"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
                 </nav>
-                <p>Copyright ©2014 人人都是产品经理 - 深圳聚力创想信息科技有限公司 - 粤ICP备14037330号-1 - 网站统计
-</br>
-网站合作和广告投放联系QQ： 2606668171 （加好友请注明来意）</br>
-特别鸣谢 阿里云 赞助服务器，又拍云 赞助图片加速，加速乐 安全支持</p>
+                <p>Copyright ©2014 </p>
             </div><!--col-md-->
         </div><!--row-->
     </div><!--container-->
