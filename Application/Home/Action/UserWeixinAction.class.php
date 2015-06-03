@@ -83,9 +83,9 @@ class UserWeixinAction extends BaseuserAction {
     public function wxListAdd() {
         $skin = $this->skin; //获取前台主题皮肤名称
         $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '添加API信息');
-        $this->assign('sidebar_active', 'apilist');
-        $this->theme($skin)->display($tpl_user . 'api_add');
+        $this->assign('title', '添加微信公众帐号');
+        $this->assign('sidebar_active', 'wxlist');
+        $this->theme($skin)->display($tpl_user . 'wx_add');
     }
 
     /**
@@ -469,7 +469,7 @@ class UserWeixinAction extends BaseuserAction {
      * @version dogocms 1.0
      * @todo 
      */
-    public function apiInsert() {
+    public function wxInsert() {
         $m = D('ApiList');
         $uid = session('LOGIN_M_ID');
         $apitoken = I('post.apitoken');
