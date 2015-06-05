@@ -20,14 +20,14 @@
                             <input type="text" name="wxcode" class="form-control input-lg" id="inputwxcode" placeholder="" value="{$data.wxcode}" required="required">
                         </div>
                     </div><!--form-group-->
-                    
+
                     <div class="form-group">
                         <label for="inputwxname" class="col-sm-2 control-label">微信名称：</label>
                         <div class="col-sm-10">
                             <input type="text" name="wxname" class="form-control input-lg" id="inputwxname" placeholder="" value="{$data.wxname}" required="required">
                         </div>
                     </div><!--form-group-->
-                    
+
                     <div class="form-group">
                         <label for="inputappid" class="col-sm-2 control-label">AppID(应用ID)：</label>
                         <div class="col-sm-10">
@@ -40,22 +40,29 @@
                             <input type="text" name="appsecret" class="form-control input-lg" id="inputappsecret" placeholder="" value="{$data.appsecret}" >
                         </div>
                     </div><!--form-group-->
-                    
-                    
-                    
+
+
+
                     <div class="form-group">
                         <label for="inputstatus" class="col-sm-2 control-label">状态：</label>
                         <div class="col-sm-10">
-                            <input type="text" name="status" class="form-control input-lg" id="inputstatus" placeholder="" value="{$data.status}">
+                            <label class="radio-inline">
+                                <input type="radio" name="status" id="inlineRadio2" value="20"> 启用
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="status" id="inlineRadio1" value="10"> 禁用
+                            </label>
+                            
+
                         </div>
                     </div><!--form-group-->
-                    
-                    
+
+
                     <div class="form-group">
                         <label for="inputremark" class="col-sm-2 control-label">备注：</label>
                         <div class="col-sm-10">
                             <textarea class="form-control input-lg" name="remark" id="inputremark" rows="3" >{$data.remark}</textarea>
-                            
+
                         </div>
                     </div><!--form-group-->
                     <div class="form-group">

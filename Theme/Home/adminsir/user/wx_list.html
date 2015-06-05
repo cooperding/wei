@@ -28,12 +28,12 @@
                     <foreach name="list" item="vo" key="i">
                         <tr>
                             <td>{$i+1}</td>
-                            <td>{$vo.wxcode}</td>
+                            <td>{$vo.wx_code}</td>
                             <td>{$vo.name}</td>
                             <td>{$vo.addtime|date="Y-m-d H:i",###}</td>
                             <td>{$vo.status}</td>
-                            <td><a href="{:U('User/Index/apiListEdit',array('id'=>$vo['id']))}" title="编辑API"><span class="glyphicon glyphicon-edit"></span></a> / 
-                                <a href="{:U('User/Index/apiDelete',array('id'=>$vo['id']))}" onclick="return confirm('确认要删除该信息吗？');" title="删除API">
+                            <td><a href="{:U('UserWeixin/wxListEdit',array('id'=>$vo['id']))}" title="编辑"><span class="glyphicon glyphicon-edit"></span></a> / 
+                                <a href="{:U('UserWeixin/wxDelete',array('id'=>$vo['id']))}" onclick="return confirm('确认要删除该信息吗？');" title="删除API">
                                     <span class="glyphicon glyphicon-remove-circle"></span></a>
                             </td>
                         </tr>
