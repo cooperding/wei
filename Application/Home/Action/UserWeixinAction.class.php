@@ -20,13 +20,13 @@ class UserWeixinAction extends BaseuserAction {
 
     /**
      * index
-     * 会员主页信息
+     * 微信主页面列表
      * @return boolean
      * @version dogocms 1.0
      * @todo 权限验证
      */
     public function index() {
-        
+
         $m = D('WxInfo');
         $uid = session('LOGIN_M_ID');
         $condition['members_id'] = array('eq', $uid);
@@ -46,35 +46,6 @@ class UserWeixinAction extends BaseuserAction {
         $this->theme($skin)->display($tpl_user . 'wx_list');
     }
 
-    
-
-    /**
-     * apiList
-     * api 接口列表信息
-     * @return display
-     * @version dogocms 1.0
-     * @todo 
-     */
-    public function apiList() {
-        $m = D('WxInfo');
-        $uid = session('LOGIN_M_ID');
-        $condition['members_id'] = array('eq', $uid);
-        $data = $m->where($condition)->select();
-        foreach ($data as $k => $v) {
-            if ($v['status'] == '20') {
-                $data[$k]['status'] = '可用';
-            } else {
-                $data[$k]['status'] = '禁用';
-            }
-        }
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '微信公众帐号列表');
-        $this->assign('sidebar_active', 'apilist');
-        $this->assign('list', $data);
-        $this->theme($skin)->display($tpl_user . 'api_list');
-    }
-
     /**
      * apiListAdd
      * api接口-添加
@@ -91,27 +62,25 @@ class UserWeixinAction extends BaseuserAction {
     }
 
     /**
-     * apiListEdit
-     * api接口-编辑
+     * wxListEdit
+     * 微信接口-编辑
      * @return display
      * @version dogocms 1.0
      * @todo 
      */
-    public function apiListEdit() {
-        $m = D('ApiList');
+    public function wxListEdit() {
+        $m = D('WxInfo');
         $uid = session('LOGIN_M_ID');
         $condition['members_id'] = array('eq', $uid);
         $condition['id'] = array('eq', I('get.id'));
         $data = $m->where($condition)->find();
         $skin = $this->skin; //获取前台主题皮肤名称
         $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '修改API信息');
+        $this->assign('title', '修改信息');
         $this->assign('sidebar_active', 'apilist');
         $this->assign('data', $data);
-        $this->theme($skin)->display($tpl_user . 'api_edit');
+        $this->theme($skin)->display($tpl_user . 'wx_edit');
     }
-
-    
 
     /**
      * apiInsert
@@ -139,12 +108,12 @@ class UserWeixinAction extends BaseuserAction {
         $data['status'] = 20;
         $data['name'] = $wxname; //微信名称
         $data['wx_code'] = $wxcode; //微信号
-        $data['wxtoken'] = R('Common/System/guid');//生成token
+        $data['wxtoken'] = R('Common/System/guid'); //生成token
         $data['appid'] = trim(I('post.appid'));
         $data['appsecret'] = trim(I('post.appsecret'));
         $data['remark'] = I('post.remark');
-        
-        
+
+
         $rs = $m->data($data)->add();
         if ($rs == true) {
             $this->success('操作成功', U('UserWeixin/index'));
@@ -160,16 +129,32 @@ class UserWeixinAction extends BaseuserAction {
      * @version dogocms 1.0
      * @todo 
      */
-    public function apiUpdate() {
-        $m = D('ApiList');
+    public function wxUpdate() {
+        $m = D('WxInfo');
         $uid = session('LOGIN_M_ID');
         $condition['members_id'] = array('eq', $uid);
         $condition['id'] = array('eq', I('post.id'));
-        $_POST['updatetime'] = time();
-        $_POST['status'] = '10';
-        $rs = $m->where($condition)->save($_POST);
+
+        $wxcode = trim(I('post.wxcode'));
+        if (empty($wxcode)) {
+            $this->error('微信号不能为空！');
+            exit;
+        }
+        $wxname = trim(I('post.wxname'));
+        if (empty($wxname)) {
+            $this->error('微信名称不能为空！');
+            exit;
+        }
+        $data['updatetime'] = time();
+        $data['status'] = I('post.status');
+        $data['name'] = $wxname; //微信名称
+        $data['wx_code'] = $wxcode; //微信号
+        $data['appid'] = trim(I('post.appid'));
+        $data['appsecret'] = trim(I('post.appsecret'));
+        $data['remark'] = I('post.remark');
+        $rs = $m->where($condition)->save($data);
         if ($rs == true) {
-            $this->success('操作成功', __MODULE__ . '/Index/apiList');
+            $this->success('操作成功', U('UserWeixin/index'));
         } else {
             $this->error('操作失败，请重新操作！');
         }
@@ -182,14 +167,14 @@ class UserWeixinAction extends BaseuserAction {
      * @version dogocms 1.0
      * @todo 
      */
-    public function apiDelete() {
-        $m = D('ApiList');
+    public function wxDelete() {
+        $m = D('WxInfo');
         $uid = session('LOGIN_M_ID');
         $condition['members_id'] = array('eq', $uid);
         $condition['id'] = array('eq', I('get.id'));
         $rs = $m->where($condition)->delete();
         if ($rs == true) {
-            $this->success('操作成功', __MODULE__ . '/Index/addressList');
+            $this->success('操作成功', U('UserWeixin/index'));
         } else {
             $this->error('操作失败，请重新操作！');
         }

@@ -10,21 +10,30 @@
         </div><!--col-md-->
         <div class="col-md-9">
             <div class="dogo-member">
-                <h4>添加微信公众帐号信息</h4>
+                <h4>编辑微信公众帐号信息</h4>
                 <div class="dogo-blank"></div>
 
-                <form class="form-horizontal " role="form" action="{:U('UserWeixin/wxInsert')}" method="post">
+                <form class="form-horizontal " role="form" action="{:U('UserWeixin/wxUpdate')}" method="post">
+                    <input name="id" value="{$data.id}" type="hidden"/>
+                    <div class="form-group">
+                        <label for="inputtoken" class="col-sm-2 control-label">token值：</label>
+                        <div class="col-sm-10">
+                            {$data.wxtoken}
+                           
+                        </div>
+                    </div><!--form-group-->
+                    
                     <div class="form-group">
                         <label for="inputwxcode" class="col-sm-2 control-label">微信号：</label>
                         <div class="col-sm-10">
-                            <input type="text" name="wxcode" class="form-control input-lg" id="inputwxcode" placeholder="" value="{$data.wxcode}" required="required">
+                            <input type="text" name="wxcode" class="form-control input-lg" id="inputwxcode" placeholder="" value="{$data.wx_code}" required="required">
                         </div>
                     </div><!--form-group-->
 
                     <div class="form-group">
                         <label for="inputwxname" class="col-sm-2 control-label">微信名称：</label>
                         <div class="col-sm-10">
-                            <input type="text" name="wxname" class="form-control input-lg" id="inputwxname" placeholder="" value="{$data.wxname}" required="required">
+                            <input type="text" name="wxname" class="form-control input-lg" id="inputwxname" placeholder="" value="{$data.name}" required="required">
                         </div>
                     </div><!--form-group-->
 
@@ -47,10 +56,10 @@
                         <label for="inputstatus" class="col-sm-2 control-label">状态：</label>
                         <div class="col-sm-10">
                             <label class="radio-inline">
-                                <input type="radio" name="status" id="inlineRadio2" value="20" checked> 启用
+                                <input type="radio" name="status" id="inlineRadio2" value="20" <if condition="$data['status'] eq 20">checked</if>> 启用
                             </label>
                             <label class="radio-inline">
-                                <input type="radio" name="status" id="inlineRadio1" value="10"> 禁用
+                                <input type="radio" name="status" id="inlineRadio1" value="10" <if condition="$data['status'] eq 10">checked</if>> 禁用
                             </label>
                             
 

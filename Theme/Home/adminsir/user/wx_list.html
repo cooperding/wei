@@ -32,9 +32,10 @@
                             <td>{$vo.name}</td>
                             <td>{$vo.addtime|date="Y-m-d H:i",###}</td>
                             <td>{$vo.status}</td>
-                            <td><a href="{:U('UserWeixin/wxListEdit',array('id'=>$vo['id']))}" title="编辑"><span class="glyphicon glyphicon-edit"></span></a> / 
-                                <a href="{:U('UserWeixin/wxDelete',array('id'=>$vo['id']))}" onclick="return confirm('确认要删除该信息吗？');" title="删除API">
-                                    <span class="glyphicon glyphicon-remove-circle"></span></a>
+                            <td>
+                                <a class="btn btn-default" href="#" role="button">管理</a>
+                                <a class="btn btn-default" href="{:U('UserWeixin/wxListEdit',array('id'=>$vo['id']))}" role="button">修改</a>
+                                <a class="btn btn-default" href="{:U('UserWeixin/wxDelete',array('id'=>$vo['id']))}" onclick="return confirm('确认要删除该信息吗？');" role="button">删除</a>
                             </td>
                         </tr>
                     </foreach>
