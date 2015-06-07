@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{$title}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="{$keywords}" />
+        <meta name="description" content="{$description}" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__{$style_common}/v3.3.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="{$style}/css/jquery.bxslider.css"/>
+        <link rel="stylesheet" type="text/css" href="{$style}/css/common.css"/>
+        <link rel="stylesheet" type="text/css" href="{$style}/css/style.css"/>
+        <!--[if lte IE 9]>
+<script type="text/javascript" src="__PUBLIC__{$style_common}/js/html5shiv.js"></script>
+<![endif]-->
+    </head>
+    <body>
+        <div class="dogo-page ">
+            <div class="dogo-top">
+                <div class="container dogo-wp">
+                    <div class="dogo-top-nav">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/">首页</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <php>if(session('LOGIN_M_STATUS')=='TRUE'){</php>
+                            <li><a href="{:U('User/Index/index')}">我的主页</a></li>
+                            <li><a href="{:U('User/Index/changePwd')}">修改密码</a></li>
+                            <li><a href="javascript:void(0)" class="dogo-click-logout">退出登录</a></li>
+                            <php>}else{</php>
+                            <li><a href="{:U('Passport/login')}" title="登录">登录</a></li>
+                            <li><a href="{:U('Passport/signup')}" title="注册">注册</a></li>
+                            <li><a href="{:U('Passport/resetPassword')}">忘记密码</a></li>
+                            <php>}</php>
+                        </ul>
+                    </div><!--dogo-top-nav-->
+                </div>
+            </div><!--dogo-top-->
+            

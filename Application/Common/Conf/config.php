@@ -24,5 +24,4 @@ return array(
     'HTML_CACHE_ON' => false, // 开启静态缓存
     'HTML_CACHE_TIME' => 60, // 全局静态缓存有效期（秒）
     'HTML_FILE_SUFFIX' => '.html', // 设置静态缓存文件后缀
-    'API_URL_SSO' => 'http://localhost/younuosso/api/', // 请求站点
 );

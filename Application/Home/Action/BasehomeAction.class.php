@@ -31,8 +31,10 @@ class BasehomeAction extends Action {
         $this->assign('style_common', '/Common');
         $this->assign('style', '/Theme' . __MODULE__ . '/' . $skin . '/style');
         $this->assign('tpl_header', './Theme' . __MODULE__ . '/' . $skin . '/' . $tpl_home . '/header.html');
+        $this->assign('tpl_header_user', './Theme' . __MODULE__ . '/' . $skin . '/' . $tpl_user . '/header_user.html');
         $this->assign('tpl_footer', './Theme' . __MODULE__ . '/' . $skin . '/' . $tpl_home . '/footer.html');
         $this->assign('tpl_sidebar', './Theme' . __MODULE__ . '/' . $skin . '/' . $tpl_user . '/sidebar.html');
+        $this->assign('tpl_sidebar_wx', './Theme' . __MODULE__ . '/' . $skin . '/' . $tpl_user . '/sidebar_wx.html');
     }
 
     /*

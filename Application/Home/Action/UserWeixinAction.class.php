@@ -1,9 +1,8 @@
 <?php
 
 /**
- * IndexAction.class.php
- * 前台首页
- * 前台核心文件，其他页面需要继承本类方可有效
+ * UserWeixinAction.class.php
+ * 会员微信
  * @author cooper ding <qiuyuncode@163.com.com>
  * @copyright 2012- www.dingcms.com www.dogocms.com www.qiuyuncode.com www.adminsir.net All rights reserved.
  * @license http://www.apache.org/licenses/LICENSE-2.0
