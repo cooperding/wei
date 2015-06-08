@@ -1,9 +1,8 @@
 <?php
 
 /**
- * WeixinAction.class.php
- * 前台首页
- * 微信信息处理中心
+ * WxmenuAction.class.php
+ * 微信自定义菜单
  * @author cooper ding <qiuyuncode@163.com.com>
  * @copyright 2012- www.dingcms.com www.dogocms.com www.qiuyuncode.com www.adminsir.net All rights reserved.
  * @license http://www.apache.org/licenses/LICENSE-2.0
@@ -16,7 +15,7 @@ namespace Home\Action;
 
 use Think\Action;
 
-class WxmanageAction extends BaseuserAction {
+class WxmenuAction extends BaseuserAction {
 
     /**
      * index
@@ -33,22 +32,7 @@ class WxmanageAction extends BaseuserAction {
         $this->assign('title', '微信公众帐号列表');
         $this->assign('sidebar_active', 'apilist');
         $this->assign('list', $data);
-        $this->theme($skin)->display($tpl_user . 'wxm_index');
-    }
-
-    /**
-     * wxReply
-     * 微信关注与回复
-     * @return string/array
-     * @version dogocms 1.0
-     */
-    public function wxReply() {
-        $skin = $this->skin; //获取前台主题皮肤名称
-        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
-        $this->assign('title', '微信公众帐号列表');
-        $this->assign('sidebar_active', 'apilist');
-        $this->assign('list', $data);
-        $this->theme($skin)->display($tpl_user . 'wxm_reply');
+        $this->theme($skin)->display($tpl_user . 'wxm_menu');
     }
 
     /**

@@ -108,6 +108,7 @@ class UserWeixinAction extends BaseuserAction {
         $data['name'] = $wxname; //微信名称
         $data['wx_code'] = $wxcode; //微信号
         $data['wxtoken'] = R('Common/System/guid'); //生成token
+        $data['dtoken'] = R('Common/System/guid',array('status'=>'true')); //生成dtoken
         $data['appid'] = trim(I('post.appid'));
         $data['appsecret'] = trim(I('post.appsecret'));
         $data['remark'] = I('post.remark');

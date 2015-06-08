@@ -1,10 +1,13 @@
 <div class="dogo-nav-sidebar dogo-border dogo-radius">
     <div class="list-group ">
         <a href="javascript:void(0)" class="list-group-item dogo-nav-header"><span class="glyphicon glyphicon-user"></span> 微信管理</a>
-        <a href="{:U('User/index')}" class="list-group-item <eq name='sidebar_active' value='index'>active</eq>"><span class="glyphicon glyphicon-cog"></span> 自定义菜单</a>
-        <a href="{:U('User/personal')}" class="list-group-item <eq name='sidebar_active' value='personal'>active</eq>"><span class="glyphicon glyphicon-user"></span> 关注回复</a>
-        <a href="{:U('User/email')}" class="list-group-item <eq name='sidebar_active' value='email'>active</eq>"><span class="glyphicon glyphicon-envelope"></span> 模板管理</a>
-        <a href="{:U('User/changePwd')}" class="list-group-item <eq name='sidebar_active' value='changepwd'>active</eq>"><span class="glyphicon glyphicon-pencil"></span> 修改密码</a>
+        <a href="{:U('Wxmenu/index')}" class="list-group-item <eq name='sidebar_active' value='index'>active</eq>"><span class="glyphicon glyphicon-cog"></span> 自定义菜单</a>
+        <a href="{:U('Wxmanage/wxReply')}" class="list-group-item <eq name='sidebar_active' value='personal'>active</eq>"><span class="glyphicon glyphicon-user"></span> 关注回复</a>
+        
+        <a href="javascript:void(0)" class="list-group-item dogo-nav-header"><span class="glyphicon glyphicon-cog"></span> 我的微站</a>
+        <a href="{:U('User/email')}" class="list-group-item <eq name='sidebar_active' value='email'>active</eq>"><span class="glyphicon glyphicon-th-large"></span> 模板管理</a>
+        <a href="{:U('User/email')}" class="list-group-item <eq name='sidebar_active' value='email'>active</eq>"><span class="glyphicon glyphicon-play-circle"></span> 幻灯模板</a>
+        <a href="{:U('User/email')}" class="list-group-item <eq name='sidebar_active' value='email'>active</eq>"><span class="glyphicon glyphicon-menu-hamburger"></span> 导航模板</a>
         <a href="javascript:void(0)" class="list-group-item dogo-nav-header"><span class="glyphicon glyphicon-cog"></span> 我的店铺</a>
         <a href="{:U('UserWeixin/index')}" class="list-group-item <eq name='sidebar_active' value='wx_add'>active</eq>"><span class="glyphicon glyphicon-list-alt"></span> 我的公众帐号</a>
         
