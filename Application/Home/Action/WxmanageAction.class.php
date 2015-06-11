@@ -28,11 +28,22 @@ class WxmanageAction extends BaseuserAction {
     public function index() {
         $id = I('get.id');
         $token = I('get.token');
+        $d = D('WxInfo');
+        $members_id = session('LOGIN_M_ID');
+        $condition['id'] = array('eq', $id);
+        $condition['dtoken'] = array('eq', $token);
+        $condition['members_id'] = array('eq', $members_id);
+        $data = $d->where($condition)->find();
+        if($data['status']==20){
+            $data['status'] = "启用";
+        }  else {
+            $data['status'] = "禁用";
+        }
         $skin = $this->skin; //获取前台主题皮肤名称
         $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
         $this->assign('title', '微信公众帐号列表');
         $this->assign('sidebar_active', 'apilist');
-        $this->assign('list', $data);
+        $this->assign('data', $data);
         $this->theme($skin)->display($tpl_user . 'wxm_index');
     }
 
@@ -49,6 +60,20 @@ class WxmanageAction extends BaseuserAction {
         $this->assign('sidebar_active', 'apilist');
         $this->assign('list', $data);
         $this->theme($skin)->display($tpl_user . 'wxm_reply');
+    }
+    /**
+     * wxTheme
+     * 微信模板管理
+     * @return string/array
+     * @version dogocms 1.0
+     */
+    public function wxTheme() {
+        $skin = $this->skin; //获取前台主题皮肤名称
+        $tpl_user = $this->tpl_user; //获取主题皮肤会员模板名称
+        $this->assign('title', '微信公众帐号列表');
+        $this->assign('sidebar_active', 'apilist');
+        $this->assign('list', $data);
+        $this->theme($skin)->display($tpl_user . 'wxm_theme');
     }
 
     /**

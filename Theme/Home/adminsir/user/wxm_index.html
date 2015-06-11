@@ -10,10 +10,26 @@
         </div><!--col-md-->
         <div class="col-md-9">
             <div class="dogo-member">
-                <h4> <span class="glyphicon glyphicon-home"></span> {$data.uname}，欢迎您！</h4>
+                <h4> <span class="glyphicon glyphicon-home"></span> 当前管理的微信公众帐号信息</h4>
                 <div class="dogo-blank"></div>
-                <p><span class="glyphicon glyphicon-time"></span> {$data.addtime|date="Y年m月d日",###}加入我们 &nbsp;&nbsp;<span class="glyphicon glyphicon-map-marker"></span> 当前IP：{$data.ip}</p>
-                <p>个性签名: <span class="glyphicon glyphicon-hand-right"></span> {$data.signature}</p>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">微信号：{$data.wx_code}</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>微信名称:{$data.name}</li>
+                            <li>微信AppID:{$data.wxtoken}</li>
+                            <li>绑定地址:</li>
+                            <li>微信状态:{$data.status}</li>
+                            <li>添加日期:{$data.addtime|date="Y-m-d H:i:s",###}</li>
+                            <li>备注:{$data.remark}</li>
+                        </ul>
+                    </div>
+                </div>
+
+
             </div><!--dogo-member-->
         </div><!--col-md-->
     </div><!--row-->

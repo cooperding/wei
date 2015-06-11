@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="keywords" content="<?php echo ($keywords); ?>" />
         <meta name="description" content="<?php echo ($description); ?>" />
-        <link rel="stylesheet" type="text/css" href="/Public<?php echo ($style_common); ?>/v3.3.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="/Public<?php echo ($style_common); ?>/bootstrap/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="<?php echo ($style); ?>/css/jquery.bxslider.css"/>
         <link rel="stylesheet" type="text/css" href="<?php echo ($style); ?>/css/common.css"/>
         <link rel="stylesheet" type="text/css" href="<?php echo ($style); ?>/css/style.css"/>
@@ -142,7 +142,7 @@
 
 
 <script type="text/javascript" src="/Public<?php echo ($style_common); ?>/js/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="/Public<?php echo ($style_common); ?>/v3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/Public<?php echo ($style_common); ?>/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/Public<?php echo ($style_common); ?>/js/jquery.bxslider.min.js"></script>
 <!--[if lte IE 9]>
 <script type="text/javascript" src="/Public<?php echo ($style_common); ?>/js/respond.js"></script>
