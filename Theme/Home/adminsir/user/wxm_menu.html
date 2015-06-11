@@ -1,0 +1,69 @@
+<include file="$tpl_header_user" />
+<div class="container">
+    <div class="dogo-blank"></div>
+    <div class="row">
+        <div class="col-md-3">
+
+            <div class="dogo-sidebar">
+                <include file="$tpl_sidebar_wx" />
+            </div><!--dogo-sidebar-->
+        </div><!--col-md-->
+        <div class="col-md-9">
+            
+            <div class="dogo-member">
+                <h4>自定义菜单</h4>
+                <div class="dogo-blank"></div>
+                <table class="table table-hover table-responsive">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>帐号</th>
+                            <th>名称</th>
+                            <th>添加时间</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <foreach name="list" item="vo" key="i">
+                        <tr>
+                            <td>{$i+1}</td>
+                            <td>{$vo.wx_code}</td>
+                            <td>{$vo.name}</td>
+                            <td>{$vo.addtime|date="Y-m-d H:i",###}</td>
+                            <td>{$vo.status}</td>
+                            <td>
+                                <a class="btn btn-default" href="{:U('Wxmanage/index',array('id'=>$vo['id'],'token'=>$vo['dtoken']))}" role="button" target="view_window">管理</a>
+                                <a class="btn btn-default" href="{:U('UserWeixin/wxListEdit',array('id'=>$vo['id']))}" role="button">修改</a>
+                                <a class="btn btn-default" href="{:U('UserWeixin/wxDelete',array('id'=>$vo['id']))}" onclick="return confirm('确认要删除该信息吗？');" role="button">删除</a>
+                            </td>
+                        </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+
+            </div><!--dogo-member-->
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div><!--col-md-->
+    </div><!--row-->
+
+    <div class="dogo-blank"></div>
+
+</div><!--container-->
+<include file="$tpl_footer" />
+<foreach name="sites" item="vo">
+    <script src="{$vo.domain}"></script>
+</foreach>
+</div><!--dogo-page-->
+
+</body>
+</html>
